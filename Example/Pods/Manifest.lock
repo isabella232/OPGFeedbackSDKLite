@@ -1,0 +1,16 @@
+PODS:
+  - OPGFeedbackSDKLite (0.1.0)
+
+DEPENDENCIES:
+  - OPGFeedbackSDKLite (from `../`)
+
+EXTERNAL SOURCES:
+  OPGFeedbackSDKLite:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OPGFeedbackSDKLite: e825704a073dbca6203ee7a838872ec8749a7cdb
+
+PODFILE CHECKSUM: 0b30df25eb5eb593e790d8809d30b26f363226b2
+
+COCOAPODS: 1.3.1

@@ -1,0 +1,6 @@
+framework module Pods_OPGFeedbackSDKLite_Example {
+  umbrella header "Pods-OPGFeedbackSDKLite_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

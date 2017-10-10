@@ -1,0 +1,6 @@
+framework module OPGFeedbackSDKLite {
+  umbrella header "OPGFeedbackSDKLite-umbrella.h"
+
+  export *
+  module * { export * }
+}
