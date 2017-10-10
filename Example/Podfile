@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OPGFeedbackSDKLite_Example' do
+  pod 'OPGFeedbackSDKLite', :path => '../'
+
+  target 'OPGFeedbackSDKLite_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
