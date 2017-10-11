@@ -21,7 +21,6 @@
   "ios": {
     "vendored_libraries": "lib/libOnePointSDK.a"
   },
-  "preserve_paths": "libOnePointSDK.a",
   "source_files": "include/OPGSDK/*.h",
   "public_header_files": "include/OPGSDK/*.h",
   "resource_bundles": {
