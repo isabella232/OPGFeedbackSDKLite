@@ -68,13 +68,13 @@ class UpdatePanellistProfileViewController: UIViewController, UITextFieldDelegat
         }
     }
     
-    func keyboardWillShow(notification: NSNotification)
+    @objc func keyboardWillShow(notification: NSNotification)
     {
         self.viewHeight.constant = -170                    //iPhone 5S
         self.view.updateConstraints()
     }
     
-    func keyboardWillHide(notification: NSNotification)
+    @objc func keyboardWillHide(notification: NSNotification)
     {
         self.viewHeight.constant = 20                       //iPhone 5S
         self.view.updateConstraints()
@@ -165,7 +165,7 @@ class UpdatePanellistProfileViewController: UIViewController, UITextFieldDelegat
     }
 
     
-    func doneClick()
+    @objc func doneClick()
     {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd"
@@ -173,7 +173,7 @@ class UpdatePanellistProfileViewController: UIViewController, UITextFieldDelegat
         txtDOB.resignFirstResponder()
     }
     
-    func cancelClick()
+    @objc func cancelClick()
     {
         txtDOB.resignFirstResponder()
     }

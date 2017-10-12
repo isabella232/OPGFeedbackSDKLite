@@ -43,7 +43,7 @@
 		1F738B6650142F11BBFE48F8A0E823D6 /* OPGWhitelist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGWhitelist.h; path = include/OPGSDK/OPGWhitelist.h; sourceTree = "<group>"; };
 		242D0C2C5429B31F47C10F680A0DBFB2 /* OPGCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGCamera.h; path = include/OPGSDK/OPGCamera.h; sourceTree = "<group>"; };
 		24A904977475E57E2E9EF64E386A5946 /* Pods-OPGFeedbackSDKLite_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OPGFeedbackSDKLite_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		27C470B06C6867050B618FA5CD802A5F /* Pods-OPGFeedbackSDKLite_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OPGFeedbackSDKLite_Tests.modulemap"; sourceTree = "<group>"; };
+		27C470B06C6867050B618FA5CD802A5F /* Pods-OPGFeedbackSDKLite_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OPGFeedbackSDKLite_Tests.modulemap"; sourceTree = "<group>"; };
 		2B9507941E673D0E56363515F6731D86 /* OPGForgotPassword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGForgotPassword.h; path = include/OPGSDK/OPGForgotPassword.h; sourceTree = "<group>"; };
 		30E7E54D950978BF47AF9849BCF9F6A4 /* Pods-OPGFeedbackSDKLite_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OPGFeedbackSDKLite_Example-dummy.m"; sourceTree = "<group>"; };
 		3289EE2999504ED89BC974B17567342F /* OPGDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGDebug.h; path = include/OPGSDK/OPGDebug.h; sourceTree = "<group>"; };
@@ -60,13 +60,13 @@
 		4AAF754663051C20BADE443D9E7A159D /* OPGCommandQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGCommandQueue.h; path = include/OPGSDK/OPGCommandQueue.h; sourceTree = "<group>"; };
 		4F1C66C4328C5194171BB2ECEC09F7B8 /* OPGCommandDelegateImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGCommandDelegateImpl.h; path = include/OPGSDK/OPGCommandDelegateImpl.h; sourceTree = "<group>"; };
 		4FDB9E2F95D1B3EC8772BA7E2D5991D0 /* OPGChangePassword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGChangePassword.h; path = include/OPGSDK/OPGChangePassword.h; sourceTree = "<group>"; };
-		54131234DD90A90FFD5354B3B0600366 /* OPGFeedbackSDKLite.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = OPGFeedbackSDKLite.bundle; path = OPGFeedbackSDKLite.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		54131234DD90A90FFD5354B3B0600366 /* OPGFeedbackSDKLite.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OPGFeedbackSDKLite.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		55254D2B17CCE06BD917A7F2DB7B1B5A /* NSString+OPGAESCrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+OPGAESCrypt.h"; path = "include/OPGSDK/NSString+OPGAESCrypt.h"; sourceTree = "<group>"; };
 		55778AFBBEEDA1F83FAD2037ED37C48C /* NSObject+OPGSBJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+OPGSBJSON.h"; path = "include/OPGSDK/NSObject+OPGSBJSON.h"; sourceTree = "<group>"; };
 		5755453D52D91935F3980B262EB8F19E /* OPGConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGConnection.h; path = include/OPGSDK/OPGConnection.h; sourceTree = "<group>"; };
 		57BD8EA7B787C9D8F6D130E697E3AEAC /* OPGGeoFence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGGeoFence.h; path = include/OPGSDK/OPGGeoFence.h; sourceTree = "<group>"; };
 		59A74E3903090F5E91AFCC5F9C15C6E2 /* OPGDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGDevice.h; path = include/OPGSDK/OPGDevice.h; sourceTree = "<group>"; };
-		5AC9629A9BF57EC43733A3FD6FF4683B /* Pods_OPGFeedbackSDKLite_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OPGFeedbackSDKLite_Example.framework; path = "Pods-OPGFeedbackSDKLite_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC9629A9BF57EC43733A3FD6FF4683B /* Pods_OPGFeedbackSDKLite_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OPGFeedbackSDKLite_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B51A424552368495967340A2403F4D1 /* OPGCommandDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGCommandDelegate.h; path = include/OPGSDK/OPGCommandDelegate.h; sourceTree = "<group>"; };
 		5E11B312699875F2CEA105268B16E154 /* OPGJSON_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGJSON_private.h; path = include/OPGSDK/OPGJSON_private.h; sourceTree = "<group>"; };
 		5F6A3D0640B3E42BBC72C60F25EEA463 /* OPGScreenOrientationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGScreenOrientationDelegate.h; path = include/OPGSDK/OPGScreenOrientationDelegate.h; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		86F03AFBEF7BE7A49BE57EC60CEE7529 /* OPGLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGLogger.h; path = include/OPGSDK/OPGLogger.h; sourceTree = "<group>"; };
 		8E570A7A050FE8DCFC3FCAD4AD3F5F1F /* Pods-OPGFeedbackSDKLite_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OPGFeedbackSDKLite_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		91F86AC82120131D3B4F8B628B4786D1 /* OPGConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGConstants.h; path = include/OPGSDK/OPGConstants.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95E84F2732E4EFD5EBF26E219C8E5794 /* OPGAssetLibraryFilesystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGAssetLibraryFilesystem.h; path = include/OPGSDK/OPGAssetLibraryFilesystem.h; sourceTree = "<group>"; };
 		96FE8A679AF8193C1E8CE13F6D0A6913 /* NSData+OPGBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+OPGBase64.h"; path = "include/OPGSDK/NSData+OPGBase64.h"; sourceTree = "<group>"; };
 		9AE11A019652EDFF9CA533AE2C989FC1 /* OPGMediaPickerAndPreviewPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGMediaPickerAndPreviewPlugin.h; path = include/OPGSDK/OPGMediaPickerAndPreviewPlugin.h; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		BBAF91FE600E70153D015FEFACCC9A24 /* OPGPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGPlugin.h; path = include/OPGSDK/OPGPlugin.h; sourceTree = "<group>"; };
 		BC6E9179B8A47CF07CDECDA18BEBAFB7 /* OPGImagePreviewPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGImagePreviewPlugin.h; path = include/OPGSDK/OPGImagePreviewPlugin.h; sourceTree = "<group>"; };
 		BE0832B4153F2A921D97F238DB48F367 /* OPGPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGPanel.h; path = include/OPGSDK/OPGPanel.h; sourceTree = "<group>"; };
-		BE670CF6E9480CCF4EEB10C9208EDC8B /* Pods_OPGFeedbackSDKLite_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OPGFeedbackSDKLite_Tests.framework; path = "Pods-OPGFeedbackSDKLite_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE670CF6E9480CCF4EEB10C9208EDC8B /* Pods_OPGFeedbackSDKLite_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OPGFeedbackSDKLite_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D5794EDC34B9F5D1F00FF874FBA61D /* OPGMediaPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGMediaPlugin.h; path = include/OPGSDK/OPGMediaPlugin.h; sourceTree = "<group>"; };
 		C48F5E4368A818FD2B5E86D8C2BE9945 /* ResourceBundle-OPGFeedbackSDKLite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OPGFeedbackSDKLite-Info.plist"; sourceTree = "<group>"; };
 		C724407605167A76ED04DC92AA8A4369 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 		D1884C6A401E518A508FEAEC868E66C2 /* OPGResourceBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = OPGResourceBundle.bundle; path = OPGFeedbackSDKLite/Assets/OPGResourceBundle.bundle; sourceTree = "<group>"; };
 		D4AD1EFD5AAC771826F45600C27BB75E /* OPGCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGCapture.h; path = include/OPGSDK/OPGCapture.h; sourceTree = "<group>"; };
 		D7B85F7FF1F0BF2B5CDCACF5E6416B45 /* OPGDownloadMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGDownloadMedia.h; path = include/OPGSDK/OPGDownloadMedia.h; sourceTree = "<group>"; };
-		D8ED539DD59ED221325290E8855445E7 /* Pods-OPGFeedbackSDKLite_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OPGFeedbackSDKLite_Example.modulemap"; sourceTree = "<group>"; };
+		D8ED539DD59ED221325290E8855445E7 /* Pods-OPGFeedbackSDKLite_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OPGFeedbackSDKLite_Example.modulemap"; sourceTree = "<group>"; };
 		DC2D80D419D8B68DBE9EC49225CF7F23 /* OPGSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGSDK.h; path = include/OPGSDK/OPGSDK.h; sourceTree = "<group>"; };
 		DC8294DF08A697C2263EFDD14FF2A0A2 /* OPGCryptoTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGCryptoTransform.h; path = include/OPGSDK/OPGCryptoTransform.h; sourceTree = "<group>"; };
 		DF16612E12D58314FC79D0090FDDF78D /* libOnePointSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOnePointSDK.a; path = lib/libOnePointSDK.a; sourceTree = "<group>"; };
@@ -447,7 +447,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -525,7 +525,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -533,15 +535,21 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -572,6 +580,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/OPGFeedbackSDKLite/ResourceBundle-OPGFeedbackSDKLite-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
 				PRODUCT_NAME = OPGFeedbackSDKLite;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -590,7 +599,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -598,14 +609,20 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -776,6 +793,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/OPGFeedbackSDKLite/ResourceBundle-OPGFeedbackSDKLite-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
 				PRODUCT_NAME = OPGFeedbackSDKLite;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;

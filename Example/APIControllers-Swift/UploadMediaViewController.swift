@@ -63,7 +63,7 @@ class UploadMediaViewController: UIViewController,UIImagePickerControllerDelegat
             print("Upload Media Media Failed")         /* @"Error Occured. Contact Support!" */
             
         }
-        print("Uploaded media ID is \(mediaID)" )
+        print("Uploaded media ID is \(String(describing: mediaID))" )
         self.dismiss(animated: true, completion: nil);
         self.showAlert()
     }

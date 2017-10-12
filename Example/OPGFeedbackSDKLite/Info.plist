@@ -56,5 +56,9 @@
 	<string></string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string></string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string></string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string></string>
 </dict>
 </plist>
