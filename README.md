@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/OPGFeedbackSDKLite.svg?style=flat)](http://cocoapods.org/pods/OPGFeedbackSDKLite)
 [![Platform](https://img.shields.io/cocoapods/p/OPGFeedbackSDKLite.svg?style=flat)](http://cocoapods.org/pods/OPGFeedbackSDKLite)
 
+## Introduction
+
+The OPGFeedbackSDKLite allows you to build your own research capabilities into mobile applications. Built for iOS, you can integrate the OnePoint Global research capability and start getting feedback from your users. Using the OnePoint Global Question Editor or Studio you can build custom surveys to suit any need.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
