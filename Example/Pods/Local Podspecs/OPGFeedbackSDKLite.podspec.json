@@ -21,8 +21,14 @@
   "ios": {
     "vendored_libraries": "lib/libOnePointSDK.a"
   },
-  "source_files": "include/OPGSDK/*.h",
-  "public_header_files": "include/OPGSDK/*.h",
+  "source_files": [
+    "include/OPGSDK/*.h",
+    "include/OPGSDK/Other Supporting Files/*.h"
+  ],
+  "public_header_files": [
+    "include/OPGSDK/*.h",
+    "include/OPGSDK/Other Supporting Files/*.h"
+  ],
   "resource_bundles": {
     "OPGFeedbackSDKLite": [
       "OPGFeedbackSDKLite/Assets/OPGResourceBundle.bundle"

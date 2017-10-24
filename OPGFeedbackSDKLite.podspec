@@ -11,7 +11,6 @@ The OnePoint Global Mobile App SDK allows you to build your own research capabil
                         DESC
 
   s.homepage         = 'https://github.com/OnePointGlobal/OPGFeedbackSDKLite'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'manjunath.ramesh@onepointglobal.com' => 'manjunath.ramesh@onepointglobal.com' }
   s.source           = { :git => 'https://github.com/OnePointGlobal/OPGFeedbackSDKLite.git', :tag => s.version.to_s }
@@ -19,10 +18,10 @@ The OnePoint Global Mobile App SDK allows you to build your own research capabil
 
   s.ios.deployment_target = '8.0'
   s.ios.vendored_library = 'lib/libOnePointSDK.a'
-  #s.preserve_paths = 'libOnePointSDK.a'
 
-  s.source_files = "include/OPGSDK/*.h"
-  s.public_header_files = "include/OPGSDK/*.h"
+
+  s.source_files = "include/OPGSDK/*.h", "include/OPGSDK/Other Supporting Files/*.h"
+  s.public_header_files = "include/OPGSDK/*.h", "include/OPGSDK/Other Supporting Files/*.h"
 
 
     s.resource_bundles = {
