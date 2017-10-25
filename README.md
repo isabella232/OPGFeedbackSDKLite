@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://www.onepointglobal.com/Images/OPG_Github_logo.png"/>
+</p>
+
 # OPGFeedbackSDKLite
 
 [![CI Status](http://img.shields.io/travis/manjunath.ramesh@onepointglobal.com/OPGFeedbackSDKLite.svg?style=flat)](https://travis-ci.org/manjunath.ramesh@onepointglobal.com/OPGFeedbackSDKLite)
