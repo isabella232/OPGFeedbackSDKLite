@@ -12,7 +12,7 @@
 		95961C4C5ED2116850D3153F9570A279 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A5831DE371C86FB4A01975E1EEABBC67 /* Pods-OPGFeedbackSDKLite_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B727B62714E1DCE87F8484CB7C6C63A7 /* Pods-OPGFeedbackSDKLite_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A93AC0C096705EF02A3B36A02D9EE27F /* Pods-OPGFeedbackSDKLite_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 439AF499E0D56D896BB4F9F259983954 /* Pods-OPGFeedbackSDKLite_Tests-dummy.m */; };
-		B5C85935AAB1965468159945BE8DD4F9 /* OPGResourceBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 12EF0EC4F527C0A518180FE971D8FBF1 /* OPGResourceBundle.bundle */; };
+		B5C85935AAB1965468159945BE8DD4F9 /* OPGResourceBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 11C670549732C4FEA302EB4B342904CC /* OPGResourceBundle.bundle */; };
 		FE7A48FA16A873E5D546C9FCD7FE4DD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,110 +29,111 @@
 /* Begin PBXFileReference section */
 		003F447B2E55D49BE5D719719542119B /* Pods-OPGFeedbackSDKLite_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OPGFeedbackSDKLite_Example-resources.sh"; sourceTree = "<group>"; };
 		00F8FD7092144274A97BB1323F2B1D2A /* Pods-OPGFeedbackSDKLite_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OPGFeedbackSDKLite_Example-frameworks.sh"; sourceTree = "<group>"; };
-		08582DFAFE4D4EFCBA66847E36D07E4B /* OPGConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGConnection.h; sourceTree = "<group>"; };
-		093FCBF68D4E9E769A98F86694D92A7A /* zxing-all-in-one.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zxing-all-in-one.h"; sourceTree = "<group>"; };
+		0662FA219F5FDAA785D02DE6CC062644 /* OPGCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCamera.h; sourceTree = "<group>"; };
+		096A8DC467DC6553F6327DB8E6D119CF /* OPGAvailabilityDeprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGAvailabilityDeprecated.h; sourceTree = "<group>"; };
 		0ABA951639388A69D69333B520E6E1CC /* Pods-OPGFeedbackSDKLite_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OPGFeedbackSDKLite_Example-umbrella.h"; sourceTree = "<group>"; };
-		0AC2CFC2B25C8209BCD31E52A6ACFD1A /* OPGSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGSDK.h; path = include/OPGSDK/OPGSDK.h; sourceTree = "<group>"; };
-		0F795853A2D9BC0128E739E3988ED96F /* OPGPanelPanellist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGPanelPanellist.h; path = include/OPGSDK/OPGPanelPanellist.h; sourceTree = "<group>"; };
-		0F9083CA0CC849F31AF5757A819D0C93 /* OPGDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGDevice.h; sourceTree = "<group>"; };
+		0AD6E73D7B654C184F905EEF944C2BD9 /* OPGMediaPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGMediaPlugin.h; sourceTree = "<group>"; };
+		0BF8EA01D7FDDBC69038B578B8EDEF8B /* OPGCommandDelegateImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCommandDelegateImpl.h; sourceTree = "<group>"; };
 		10715EAE08529CEBC6B76993D4ADB0D6 /* Pods-OPGFeedbackSDKLite_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OPGFeedbackSDKLite_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		12EF0EC4F527C0A518180FE971D8FBF1 /* OPGResourceBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = OPGResourceBundle.bundle; path = OPGFeedbackSDKLite/Assets/OPGResourceBundle.bundle; sourceTree = "<group>"; };
-		17BBB388B440F10FDB1575247261CA5C /* OPGAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGAvailability.h; sourceTree = "<group>"; };
-		2238AFAE545DB753897F02361646D374 /* OPGReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGReachability.h; sourceTree = "<group>"; };
+		11C670549732C4FEA302EB4B342904CC /* OPGResourceBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = OPGResourceBundle.bundle; path = OPGFeedbackSDKLite/Assets/OPGResourceBundle.bundle; sourceTree = "<group>"; };
+		12FC051CDBEDA34E666525CE457A1C96 /* OPGLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGLogger.h; sourceTree = "<group>"; };
+		1308E076207BFD00D08EBE893D4D9E3E /* OPGChangePassword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGChangePassword.h; path = include/OPGSDK/OPGChangePassword.h; sourceTree = "<group>"; };
+		141796504FFB721976B679D422500ACE /* OPGDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGDebug.h; sourceTree = "<group>"; };
+		17BE67961F62B264971E001BD9AB8CC0 /* OPGShared.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGShared.h; sourceTree = "<group>"; };
+		23A184C05BDFEAA16DB93A14F9839CB3 /* OpenSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OpenSettings.h; sourceTree = "<group>"; };
 		24A904977475E57E2E9EF64E386A5946 /* Pods-OPGFeedbackSDKLite_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OPGFeedbackSDKLite_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2700799CEB831E67914F91230F737BAB /* UIImage+CropScaleOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropScaleOrientation.h"; sourceTree = "<group>"; };
+		24DB890ECAD181B471125BC8AF5DF7F7 /* OPGPanellistProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGPanellistProfile.h; path = include/OPGSDK/OPGPanellistProfile.h; sourceTree = "<group>"; };
+		27810D69D32E9228CA87DE7B946CA847 /* OPGDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGDevice.h; sourceTree = "<group>"; };
 		27C470B06C6867050B618FA5CD802A5F /* Pods-OPGFeedbackSDKLite_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OPGFeedbackSDKLite_Tests.modulemap"; sourceTree = "<group>"; };
-		2966EBEA29C373603130ACFB1497014A /* PKMultipartInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PKMultipartInputStream.h; sourceTree = "<group>"; };
-		2C30E8B4C620C4667BBCBA8A296DA5CE /* OPGTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGTimer.h; sourceTree = "<group>"; };
-		30A84DA2549FD3889C6E5A26B163C716 /* OPGCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCapture.h; sourceTree = "<group>"; };
+		2B1C95500E6C72D08FF861DBEA4504D6 /* RootPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RootPlugin.h; sourceTree = "<group>"; };
+		2EA30EBF489CB2311843FEDD8262EB64 /* OPGCommandQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCommandQueue.h; sourceTree = "<group>"; };
 		30E7E54D950978BF47AF9849BCF9F6A4 /* Pods-OPGFeedbackSDKLite_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OPGFeedbackSDKLite_Example-dummy.m"; sourceTree = "<group>"; };
-		3197EE2E6340360E709D6F381E5316FC /* OPGLocalFilesystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGLocalFilesystem.h; sourceTree = "<group>"; };
-		33214F46D4953683CE8DF57EFF35616B /* OPGJSON_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGJSON_private.h; sourceTree = "<group>"; };
-		38B9B5C6C338E138B79C48B628980CE8 /* NSString+OPGAESCrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+OPGAESCrypt.h"; sourceTree = "<group>"; };
+		30FD73315AC5163B9702CACE5703F46B /* OPGReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGReachability.h; sourceTree = "<group>"; };
+		33B860B57504B291625DBFD4610411EA /* OPGLocalStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGLocalStorage.h; sourceTree = "<group>"; };
+		3463973C9109B839D134705B98CF97CD /* OPGLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGLocation.h; sourceTree = "<group>"; };
+		34AF960FD566D212EA62DAF08DB03DD6 /* OPGParseResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGParseResult.h; sourceTree = "<group>"; };
+		353802D36FF6DDCAE40BC9C44508A275 /* OPGPluginResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGPluginResult.h; sourceTree = "<group>"; };
 		39EB5AF9778986ABAA3730D8A0D0BFCD /* Pods-OPGFeedbackSDKLite_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OPGFeedbackSDKLite_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3A9B301C564691F325CC5591229BF006 /* OPGHandleOpenURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGHandleOpenURL.h; sourceTree = "<group>"; };
-		3D166ED304F73512758EB91438049428 /* OPGFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGFile.h; sourceTree = "<group>"; };
-		3FA5677169255FCE52CAAC59F7E95D6F /* OPGGeofenceSurvey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGGeofenceSurvey.h; path = include/OPGSDK/OPGGeofenceSurvey.h; sourceTree = "<group>"; };
+		3E0B06268B5966508EF24C3250496E13 /* OPGConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGConnection.h; sourceTree = "<group>"; };
+		3FF24A7690FCA47BE22B6DC242332E8A /* OPGSBJsonWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGSBJsonWriter.h; sourceTree = "<group>"; };
 		40698D8A1DA621ADB84F3D4AA37BC260 /* Pods-OPGFeedbackSDKLite_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OPGFeedbackSDKLite_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		4110A234F833504649E680D62667BF69 /* OPGTheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGTheme.h; path = include/OPGSDK/OPGTheme.h; sourceTree = "<group>"; };
 		439AF499E0D56D896BB4F9F259983954 /* Pods-OPGFeedbackSDKLite_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OPGFeedbackSDKLite_Tests-dummy.m"; sourceTree = "<group>"; };
-		4C7AA385BE5A8F066403CD8609AF05F3 /* OPGSurvey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGSurvey.h; path = include/OPGSDK/OPGSurvey.h; sourceTree = "<group>"; };
-		4DD5BB9AE72DD3235E7A2A73725F7ABB /* OPGSBJsonBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGSBJsonBase.h; sourceTree = "<group>"; };
+		4819F72A32A03D7B2BDB3764DE46C0B2 /* OPGViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGViewController.h; path = include/OPGSDK/OPGViewController.h; sourceTree = "<group>"; };
+		4827B962E31C0F61EB19AD4E47912711 /* OPGSBJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGSBJSON.h; sourceTree = "<group>"; };
+		48DBBF891E1E38EAD7B762C04A07E8AD /* OPGURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGURLProtocol.h; sourceTree = "<group>"; };
+		4D5FD32DE26AB9803D237FF877FD213E /* OPGJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGJSON.h; sourceTree = "<group>"; };
+		501A72C0E5D393A225C591D409E7A35C /* OPGTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGTimer.h; sourceTree = "<group>"; };
 		54131234DD90A90FFD5354B3B0600366 /* OPGFeedbackSDKLite.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = OPGFeedbackSDKLite.bundle; path = OPGFeedbackSDKLite.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		56880D03F0AE345FD01B214EC7AB26B9 /* OPGCommandDelegateImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCommandDelegateImpl.h; sourceTree = "<group>"; };
-		59272DDF539BE935EC82C15B4D8763C3 /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		5794E89FC40A66E13A4CA377D4368889 /* NSData+OPGAESCrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+OPGAESCrypt.h"; sourceTree = "<group>"; };
+		5893ADAC7527F3D9250BCC94981EA62B /* OPGGeofenceSurvey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGGeofenceSurvey.h; path = include/OPGSDK/OPGGeofenceSurvey.h; sourceTree = "<group>"; };
 		5AC9629A9BF57EC43733A3FD6FF4683B /* Pods_OPGFeedbackSDKLite_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OPGFeedbackSDKLite_Example.framework; path = "Pods-OPGFeedbackSDKLite_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B212AD480F27D60B467754ADF3700B4 /* OPGJpegHeaderWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGJpegHeaderWriter.h; sourceTree = "<group>"; };
-		5D6D19B155038FDA186C7554E9700059 /* OPGPanellistProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGPanellistProfile.h; path = include/OPGSDK/OPGPanellistProfile.h; sourceTree = "<group>"; };
-		5F8450BAA20E277F365D916F9A21A55F /* OPGCryptoTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCryptoTransform.h; sourceTree = "<group>"; };
-		6177AE84BCDFCCF5208480E356090258 /* OPGCountry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGCountry.h; path = include/OPGSDK/OPGCountry.h; sourceTree = "<group>"; };
-		628D979427C7E916DECC377E7D1D2FD9 /* OPGNReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGNReachability.h; sourceTree = "<group>"; };
-		6595C21713F76E29CE2960688DF2C482 /* OPGNetworkRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGNetworkRequest.h; sourceTree = "<group>"; };
+		5AEC4C2001DF18E4C5AF43C22F4CB153 /* zxing-all-in-one.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zxing-all-in-one.h"; sourceTree = "<group>"; };
+		5C3BE4CBEE637D45EB6DF40E9B158B67 /* OPGExif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGExif.h; sourceTree = "<group>"; };
+		5D0ECFB625F16CF0446CEBF68859FECD /* OPGJSON_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGJSON_private.h; sourceTree = "<group>"; };
+		5E118EE0BC34A88B2C2554F2DED7D97A /* OPGPanellistPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGPanellistPanel.h; path = include/OPGSDK/OPGPanellistPanel.h; sourceTree = "<group>"; };
+		5E2CE769FEDFFEFF71431374D3AB206D /* OPGAuthenticate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGAuthenticate.h; path = include/OPGSDK/OPGAuthenticate.h; sourceTree = "<group>"; };
+		5EDB4D3582F9F170D2527C3AC5B03ACE /* UIDevice+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extensions.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A793A3493EA7E26809E0D3C6CB71D17 /* OPGParseResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGParseResult.h; sourceTree = "<group>"; };
-		70B63CA540BC0DB3699E8CBE05CC347C /* OPGChangePassword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGChangePassword.h; path = include/OPGSDK/OPGChangePassword.h; sourceTree = "<group>"; };
-		73CCA1B4D799E53827D72AC764989F20 /* OPG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPG.h; sourceTree = "<group>"; };
-		74ECA52A03B18E137D6384467362B16E /* UIDevice+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extensions.h"; sourceTree = "<group>"; };
-		760E7BAA51C01F938C2E3CB1CCF9194F /* OPGLocalStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGLocalStorage.h; sourceTree = "<group>"; };
-		76E9D73CB54D064C2CB838ADA7D76915 /* OPGConfigParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGConfigParser.h; sourceTree = "<group>"; };
-		79340CC5984E23F0B5F82DADC2B757C6 /* OPGCommandDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCommandDelegate.h; sourceTree = "<group>"; };
+		6665612B2B2908B4EDA2258CE20414DF /* OPGCountry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGCountry.h; path = include/OPGSDK/OPGCountry.h; sourceTree = "<group>"; };
+		6755E0C7DABFFF6608B5FE7EF65CD383 /* OPG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPG.h; sourceTree = "<group>"; };
+		675A3065694CC038962786C07B29A332 /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		67B62627EE760DFA18928F06AC9E8AB8 /* OPGJpegHeaderWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGJpegHeaderWriter.h; sourceTree = "<group>"; };
+		6B393AA155C3ED11F1D98842EE665510 /* OPGAssetLibraryFilesystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGAssetLibraryFilesystem.h; sourceTree = "<group>"; };
+		6FF58AB21C9C73E31660FB22A4A5AA1E /* OPGConfigParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGConfigParser.h; sourceTree = "<group>"; };
+		707248DE01FFCE45D54CE4C35DCD590B /* OPGSBJsonBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGSBJsonBase.h; sourceTree = "<group>"; };
+		7238424740EAC40D9566C465F37568F1 /* OPGPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGPanel.h; path = include/OPGSDK/OPGPanel.h; sourceTree = "<group>"; };
+		742196F1A9DFFA88CFF74841D796CD65 /* ResourceBundle-OPGFeedbackSDKLite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OPGFeedbackSDKLite-Info.plist"; sourceTree = "<group>"; };
+		75A8A0E9C8ACD7CDD5BC580C262FBF82 /* OPGSurveyPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGSurveyPanel.h; path = include/OPGSDK/OPGSurveyPanel.h; sourceTree = "<group>"; };
+		761FA95EF0B7E9FA856B9EAC4648469B /* OPGSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGSDK.h; path = include/OPGSDK/OPGSDK.h; sourceTree = "<group>"; };
 		79F58DD015DA9BFEDAF98EB8753127F2 /* Pods-OPGFeedbackSDKLite_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OPGFeedbackSDKLite_Tests-resources.sh"; sourceTree = "<group>"; };
-		7AC2AB9D58614C2AF95F86A83EC5865F /* OPGShared.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGShared.h; sourceTree = "<group>"; };
 		8031289736DB00DB1FE4FD2DBAE0D54A /* Pods-OPGFeedbackSDKLite_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OPGFeedbackSDKLite_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8197D1288F99D5E9B36DC1A4734E78DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82087087F0522961BB58F567779A3339 /* NSData+OPGAESCrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+OPGAESCrypt.h"; sourceTree = "<group>"; };
-		83E279219165F8276341B04DD93516A8 /* OPGSBJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGSBJSON.h; sourceTree = "<group>"; };
-		83F1B3875AE0483971147C4B0612A7D1 /* RootPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RootPlugin.h; sourceTree = "<group>"; };
-		89E8805662D0B2E5F085A6C3A6688428 /* OPGForgotPassword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGForgotPassword.h; path = include/OPGSDK/OPGForgotPassword.h; sourceTree = "<group>"; };
-		8A30D01D25056BAC7EEE127AD00496B8 /* OPGCommandQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCommandQueue.h; sourceTree = "<group>"; };
-		8A5B7CF322015A3BE0E0F963C05DE7C7 /* OPGExif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGExif.h; sourceTree = "<group>"; };
-		8A9BD4695424750DCADD6850FE1318EF /* OpenSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OpenSettings.h; sourceTree = "<group>"; };
+		86C580CEE26C86101D7D44299AC6018A /* UIImage+CropScaleOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropScaleOrientation.h"; sourceTree = "<group>"; };
+		87A7E6604FA8DC10B733B7E47130A536 /* OPGWhitelist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGWhitelist.h; sourceTree = "<group>"; };
+		8BDB99859B003E76D607A439E1B78FD2 /* OPGCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCapture.h; sourceTree = "<group>"; };
+		8C1C851FA97192E6FC189895C442386A /* OPGNReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGNReachability.h; sourceTree = "<group>"; };
 		8E570A7A050FE8DCFC3FCAD4AD3F5F1F /* Pods-OPGFeedbackSDKLite_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OPGFeedbackSDKLite_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E665AF5364922B8C8258407E3CDAA68 /* NSDictionary+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extensions.h"; sourceTree = "<group>"; };
-		9F5C18ED8A4F2AE5C71DBC1F55D26DC2 /* OPGConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGConstants.h; sourceTree = "<group>"; };
-		A0DE4AAA25CB98EA7321635E93B430E2 /* OPGLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGLogger.h; sourceTree = "<group>"; };
-		A85E82909D636EF317FD723612C190B0 /* OPGPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGPlugin.h; sourceTree = "<group>"; };
-		B136689ABE5A09B275D8AC285EC6B180 /* OPGMediaPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGMediaPlugin.h; sourceTree = "<group>"; };
+		9D7D730506CCE002BB49B6D2AC08E09D /* OPGScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGScript.h; sourceTree = "<group>"; };
+		A054823A8D62C20FFF8620D33B8A854E /* OPGWebViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGWebViewDelegate.h; sourceTree = "<group>"; };
+		A23D85D1CFEE87F8E03089E159E2488D /* NSObject+OPGSBJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+OPGSBJSON.h"; sourceTree = "<group>"; };
+		A2C4BE3742A8F2E6915C502DAB598A14 /* OPGCommandDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCommandDelegate.h; sourceTree = "<group>"; };
+		A3BC70F84B77C46EB9445E3C57B61B4B /* OPGSBJsonParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGSBJsonParser.h; sourceTree = "<group>"; };
+		A4C41443FD1868983189D6D49DF5B0ED /* NSString+OPGMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+OPGMD5.h"; sourceTree = "<group>"; };
+		A5D7DF771B00B929DB84EE946ECBFEDC /* NSDictionary+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extensions.h"; sourceTree = "<group>"; };
+		A7B278FAB86B29C215AAECE999C24457 /* OPGHandleOpenURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGHandleOpenURL.h; sourceTree = "<group>"; };
+		B25BD103F9DBD0C77012426F6EB53586 /* OPGConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGConstants.h; sourceTree = "<group>"; };
+		B417DE303332D07A718A24BA798A1615 /* OPGAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGAvailability.h; sourceTree = "<group>"; };
 		B727B62714E1DCE87F8484CB7C6C63A7 /* Pods-OPGFeedbackSDKLite_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OPGFeedbackSDKLite_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B811F654434EA2A94B94092D3A0D463C /* libOnePointSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOnePointSDK.a; path = lib/libOnePointSDK.a; sourceTree = "<group>"; };
-		B8393764D81DAD933C70B49C55ECDC35 /* NSArray+Comparisons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+Comparisons.h"; sourceTree = "<group>"; };
-		B885533A3EC9C8F38507A77F5363E1DC /* OPGViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGViewController.h; path = include/OPGSDK/OPGViewController.h; sourceTree = "<group>"; };
-		B9606A59F6F7151E3F6EDFDCCCC92236 /* OPGRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGRequest.h; sourceTree = "<group>"; };
-		BBD8211962377CF33AF89EFB2B376FE0 /* OPGPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGPanel.h; path = include/OPGSDK/OPGPanel.h; sourceTree = "<group>"; };
+		BB4F81B7E4C3925BF9BEA3054090AE80 /* OPGPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGPlugin.h; sourceTree = "<group>"; };
+		BD3EC1777733AF39FF7CB948EE5A650B /* OPGInvokedUrlCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGInvokedUrlCommand.h; sourceTree = "<group>"; };
 		BE670CF6E9480CCF4EEB10C9208EDC8B /* Pods_OPGFeedbackSDKLite_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OPGFeedbackSDKLite_Tests.framework; path = "Pods-OPGFeedbackSDKLite_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE7755357B684E3B5FAD828B9BA951B4 /* NSData+OPGBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+OPGBase64.h"; sourceTree = "<group>"; };
-		C031EF05BA0B3E8521DF2BBAF73891FC /* OPGLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGLocation.h; sourceTree = "<group>"; };
-		C2605AFA89E22C2F05470E206C34F3DE /* OPGCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCamera.h; sourceTree = "<group>"; };
-		C3ACFB133774C3C4C0FF2240E9E9BC88 /* OPGJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGJSON.h; sourceTree = "<group>"; };
+		C3BD593188F9A3AAF69E0FF6F29B4215 /* OPGMediaPickerAndPreviewPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGMediaPickerAndPreviewPlugin.h; sourceTree = "<group>"; };
+		C601828A415AA18FFCC4C7B4472CBBF5 /* OPGDownloadMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGDownloadMedia.h; path = include/OPGSDK/OPGDownloadMedia.h; sourceTree = "<group>"; };
 		C724407605167A76ED04DC92AA8A4369 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9D3381949473176130573A5F2A7A756 /* Pods-OPGFeedbackSDKLite_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OPGFeedbackSDKLite_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CFA44853AEBD134F4F6B83FC4B9A2A3D /* OPGWhitelist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGWhitelist.h; sourceTree = "<group>"; };
-		D27C202BAF3952381F9F9C106EEDD9EE /* OPGAssetLibraryFilesystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGAssetLibraryFilesystem.h; sourceTree = "<group>"; };
-		D2B315C39599A1DBC630A1D7D6219712 /* OPGInvokedUrlCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGInvokedUrlCommand.h; sourceTree = "<group>"; };
-		D7919AD320D9516F524C1633AB0D18AF /* OPGPanellistPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGPanellistPanel.h; path = include/OPGSDK/OPGPanellistPanel.h; sourceTree = "<group>"; };
-		D856F8435C91E256C059FC605AAF7083 /* NSObject+OPGSBJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+OPGSBJSON.h"; sourceTree = "<group>"; };
+		CD807CE6E24AFFC2D4B272FD5AE5356B /* libOnePointSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOnePointSDK.a; path = lib/libOnePointSDK.a; sourceTree = "<group>"; };
+		CF9541D2A2127CC1FF732368BEFC435F /* OPGImagePreviewPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGImagePreviewPlugin.h; sourceTree = "<group>"; };
+		D323552ED061D4BC88FAF286ED446D0B /* OPGScreenOrientationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGScreenOrientationDelegate.h; sourceTree = "<group>"; };
+		D87E0623074CDBAB6BFF96FB64348F3D /* OPGNetworkRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGNetworkRequest.h; sourceTree = "<group>"; };
 		D8ED539DD59ED221325290E8855445E7 /* Pods-OPGFeedbackSDKLite_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OPGFeedbackSDKLite_Example.modulemap"; sourceTree = "<group>"; };
-		D9AECE604365B43C4C31D2BBBE6224AE /* OPGDownloadMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGDownloadMedia.h; path = include/OPGSDK/OPGDownloadMedia.h; sourceTree = "<group>"; };
-		DB8E620B11A4A870E4CD199D65FC5FAC /* OPGAuthenticate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGAuthenticate.h; path = include/OPGSDK/OPGAuthenticate.h; sourceTree = "<group>"; };
-		DF202020FBBF2E6EB8B8AB769260E645 /* OPGURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGURLProtocol.h; sourceTree = "<group>"; };
-		E2B998E67DCC3D356F13AF46AE27D41E /* NSString+OPGMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+OPGMD5.h"; sourceTree = "<group>"; };
-		E339E1DABD1F49B460FDE89EE1CC6821 /* OPGBaseController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGBaseController.h; sourceTree = "<group>"; };
+		DACEED925117D0A891A10B7C2C36493D /* OPGRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGRequest.h; sourceTree = "<group>"; };
+		DD36BE407F69DD6E58B664BC76E194F4 /* OPGUserAgentUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGUserAgentUtil.h; sourceTree = "<group>"; };
+		DD9FB95047B2EBA0D246E10824BEC6A4 /* PKMultipartInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PKMultipartInputStream.h; sourceTree = "<group>"; };
+		E6407F61393F778D733A42D19A274DC1 /* OPGGeoFence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGGeoFence.h; path = include/OPGSDK/OPGGeoFence.h; sourceTree = "<group>"; };
+		E7BACD26BDFE8DF37FCB46C2D632E285 /* OPGLocalFilesystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGLocalFilesystem.h; sourceTree = "<group>"; };
 		ED27B91863C51FF948A41B2BB2F7471C /* Pods-OPGFeedbackSDKLite_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OPGFeedbackSDKLite_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		ED671C94D54D0AE4AEB923859A74871D /* OPGScreenOrientationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGScreenOrientationDelegate.h; sourceTree = "<group>"; };
-		EE3D337C3BF560EAE35AD369B85EB546 /* OPGWebViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGWebViewDelegate.h; sourceTree = "<group>"; };
 		EE7F97BC62B4A174BB6FB0DC6604A78D /* Pods-OPGFeedbackSDKLite_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OPGFeedbackSDKLite_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F0127EB927ECB553CBC704B5606D6773 /* OPGSurveyPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGSurveyPanel.h; path = include/OPGSDK/OPGSurveyPanel.h; sourceTree = "<group>"; };
-		F1427109A2BE152621BA5F3BE4B1A28E /* OPGGeoFence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGGeoFence.h; path = include/OPGSDK/OPGGeoFence.h; sourceTree = "<group>"; };
-		F73460FB1DC62BB5C1860C6F845EF63D /* OPGSBJsonWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGSBJsonWriter.h; sourceTree = "<group>"; };
-		F8CE5D54291B61852B417EF79399AA3A /* OPGDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGDebug.h; sourceTree = "<group>"; };
-		F94D9D627FE61CD145B066B58F7644F6 /* OPGAvailabilityDeprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGAvailabilityDeprecated.h; sourceTree = "<group>"; };
-		FA9AD467AE2EFC8DBE629F46D7D20DCA /* OPGMediaPickerAndPreviewPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGMediaPickerAndPreviewPlugin.h; sourceTree = "<group>"; };
-		FB3E866C84EC04F32986774CEDDA5B36 /* OPGPluginResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGPluginResult.h; sourceTree = "<group>"; };
-		FB48565DD572622562731774CB301E74 /* OPGSBJsonParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGSBJsonParser.h; sourceTree = "<group>"; };
-		FBA3FF114364714E8A72760C48E7806F /* OPGUserAgentUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGUserAgentUtil.h; sourceTree = "<group>"; };
-		FD072135715EC7EC4DF9E9B49E821751 /* OPGImagePreviewPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGImagePreviewPlugin.h; sourceTree = "<group>"; };
-		FD748C9C283283886BF320EBFFEB7D49 /* ResourceBundle-OPGFeedbackSDKLite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OPGFeedbackSDKLite-Info.plist"; sourceTree = "<group>"; };
+		F03B3E143C89DC3C13C657D35B92FF8A /* OPGCryptoTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCryptoTransform.h; sourceTree = "<group>"; };
+		F0F3C322F258C08EDC1BD2B220869409 /* NSString+OPGAESCrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+OPGAESCrypt.h"; sourceTree = "<group>"; };
+		F1E0EEB239EA2E36C71BFD7E8AAD5809 /* OPGBaseController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGBaseController.h; sourceTree = "<group>"; };
+		F27C535B24DA9E5FCBBFA81CC6A5573F /* NSArray+Comparisons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+Comparisons.h"; sourceTree = "<group>"; };
+		F27C80DA1DE9E62E58B1A5DFD8E929E5 /* OPGTheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGTheme.h; path = include/OPGSDK/OPGTheme.h; sourceTree = "<group>"; };
+		FA275A1BCFE5345DC11FCE441BFC4881 /* NSData+OPGBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+OPGBase64.h"; sourceTree = "<group>"; };
+		FDABB63C306E3645DD45D4263E821D43 /* OPGSurvey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGSurvey.h; path = include/OPGSDK/OPGSurvey.h; sourceTree = "<group>"; };
+		FE7651B6424E1315505A8D4E774578D3 /* OPGForgotPassword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGForgotPassword.h; path = include/OPGSDK/OPGForgotPassword.h; sourceTree = "<group>"; };
+		FF3D7E26F807230C5A2CAEFF61E70857 /* OPGFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGFile.h; sourceTree = "<group>"; };
+		FF51123E7F1C748660422DE89E2B8569 /* OPGPanelPanellist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGPanelPanellist.h; path = include/OPGSDK/OPGPanelPanellist.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,76 +163,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		246530BB41959D06FBC7C006F761090B /* Other Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B8393764D81DAD933C70B49C55ECDC35 /* NSArray+Comparisons.h */,
-				82087087F0522961BB58F567779A3339 /* NSData+OPGAESCrypt.h */,
-				BE7755357B684E3B5FAD828B9BA951B4 /* NSData+OPGBase64.h */,
-				9E665AF5364922B8C8258407E3CDAA68 /* NSDictionary+Extensions.h */,
-				59272DDF539BE935EC82C15B4D8763C3 /* NSMutableArray+QueueAdditions.h */,
-				D856F8435C91E256C059FC605AAF7083 /* NSObject+OPGSBJSON.h */,
-				38B9B5C6C338E138B79C48B628980CE8 /* NSString+OPGAESCrypt.h */,
-				E2B998E67DCC3D356F13AF46AE27D41E /* NSString+OPGMD5.h */,
-				8A9BD4695424750DCADD6850FE1318EF /* OpenSettings.h */,
-				73CCA1B4D799E53827D72AC764989F20 /* OPG.h */,
-				D27C202BAF3952381F9F9C106EEDD9EE /* OPGAssetLibraryFilesystem.h */,
-				17BBB388B440F10FDB1575247261CA5C /* OPGAvailability.h */,
-				F94D9D627FE61CD145B066B58F7644F6 /* OPGAvailabilityDeprecated.h */,
-				E339E1DABD1F49B460FDE89EE1CC6821 /* OPGBaseController.h */,
-				C2605AFA89E22C2F05470E206C34F3DE /* OPGCamera.h */,
-				30A84DA2549FD3889C6E5A26B163C716 /* OPGCapture.h */,
-				79340CC5984E23F0B5F82DADC2B757C6 /* OPGCommandDelegate.h */,
-				56880D03F0AE345FD01B214EC7AB26B9 /* OPGCommandDelegateImpl.h */,
-				8A30D01D25056BAC7EEE127AD00496B8 /* OPGCommandQueue.h */,
-				76E9D73CB54D064C2CB838ADA7D76915 /* OPGConfigParser.h */,
-				08582DFAFE4D4EFCBA66847E36D07E4B /* OPGConnection.h */,
-				9F5C18ED8A4F2AE5C71DBC1F55D26DC2 /* OPGConstants.h */,
-				5F8450BAA20E277F365D916F9A21A55F /* OPGCryptoTransform.h */,
-				F8CE5D54291B61852B417EF79399AA3A /* OPGDebug.h */,
-				0F9083CA0CC849F31AF5757A819D0C93 /* OPGDevice.h */,
-				8A5B7CF322015A3BE0E0F963C05DE7C7 /* OPGExif.h */,
-				3D166ED304F73512758EB91438049428 /* OPGFile.h */,
-				3A9B301C564691F325CC5591229BF006 /* OPGHandleOpenURL.h */,
-				FD072135715EC7EC4DF9E9B49E821751 /* OPGImagePreviewPlugin.h */,
-				D2B315C39599A1DBC630A1D7D6219712 /* OPGInvokedUrlCommand.h */,
-				5B212AD480F27D60B467754ADF3700B4 /* OPGJpegHeaderWriter.h */,
-				C3ACFB133774C3C4C0FF2240E9E9BC88 /* OPGJSON.h */,
-				33214F46D4953683CE8DF57EFF35616B /* OPGJSON_private.h */,
-				3197EE2E6340360E709D6F381E5316FC /* OPGLocalFilesystem.h */,
-				760E7BAA51C01F938C2E3CB1CCF9194F /* OPGLocalStorage.h */,
-				C031EF05BA0B3E8521DF2BBAF73891FC /* OPGLocation.h */,
-				A0DE4AAA25CB98EA7321635E93B430E2 /* OPGLogger.h */,
-				FA9AD467AE2EFC8DBE629F46D7D20DCA /* OPGMediaPickerAndPreviewPlugin.h */,
-				B136689ABE5A09B275D8AC285EC6B180 /* OPGMediaPlugin.h */,
-				6595C21713F76E29CE2960688DF2C482 /* OPGNetworkRequest.h */,
-				628D979427C7E916DECC377E7D1D2FD9 /* OPGNReachability.h */,
-				6A793A3493EA7E26809E0D3C6CB71D17 /* OPGParseResult.h */,
-				A85E82909D636EF317FD723612C190B0 /* OPGPlugin.h */,
-				FB3E866C84EC04F32986774CEDDA5B36 /* OPGPluginResult.h */,
-				2238AFAE545DB753897F02361646D374 /* OPGReachability.h */,
-				B9606A59F6F7151E3F6EDFDCCCC92236 /* OPGRequest.h */,
-				83E279219165F8276341B04DD93516A8 /* OPGSBJSON.h */,
-				4DD5BB9AE72DD3235E7A2A73725F7ABB /* OPGSBJsonBase.h */,
-				FB48565DD572622562731774CB301E74 /* OPGSBJsonParser.h */,
-				F73460FB1DC62BB5C1860C6F845EF63D /* OPGSBJsonWriter.h */,
-				ED671C94D54D0AE4AEB923859A74871D /* OPGScreenOrientationDelegate.h */,
-				7AC2AB9D58614C2AF95F86A83EC5865F /* OPGShared.h */,
-				2C30E8B4C620C4667BBCBA8A296DA5CE /* OPGTimer.h */,
-				DF202020FBBF2E6EB8B8AB769260E645 /* OPGURLProtocol.h */,
-				FBA3FF114364714E8A72760C48E7806F /* OPGUserAgentUtil.h */,
-				EE3D337C3BF560EAE35AD369B85EB546 /* OPGWebViewDelegate.h */,
-				CFA44853AEBD134F4F6B83FC4B9A2A3D /* OPGWhitelist.h */,
-				2966EBEA29C373603130ACFB1497014A /* PKMultipartInputStream.h */,
-				83F1B3875AE0483971147C4B0612A7D1 /* RootPlugin.h */,
-				74ECA52A03B18E137D6384467362B16E /* UIDevice+Extensions.h */,
-				2700799CEB831E67914F91230F737BAB /* UIImage+CropScaleOrientation.h */,
-				093FCBF68D4E9E769A98F86694D92A7A /* zxing-all-in-one.h */,
-			);
-			name = "Other Supporting Files";
-			path = "include/OPGSDK/Other Supporting Files";
-			sourceTree = "<group>";
-		};
 		26267A1190AC06B18B631454F5BB7BEC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,10 +190,10 @@
 			path = "Target Support Files/Pods-OPGFeedbackSDKLite_Example";
 			sourceTree = "<group>";
 		};
-		32E3A5E878996FC40D7A8594BA402A43 /* Frameworks */ = {
+		30EE295ECF6D7330DB8F7246FF461CA8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B811F654434EA2A94B94092D3A0D463C /* libOnePointSDK.a */,
+				CD807CE6E24AFFC2D4B272FD5AE5356B /* libOnePointSDK.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -288,32 +219,12 @@
 			);
 			sourceTree = "<group>";
 		};
-		8A4335CFA705C379C2C82100EF803958 /* OPGFeedbackSDKLite */ = {
+		89FA546FA1D5288AE8BB2DB7D6BE3BF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DB8E620B11A4A870E4CD199D65FC5FAC /* OPGAuthenticate.h */,
-				70B63CA540BC0DB3699E8CBE05CC347C /* OPGChangePassword.h */,
-				6177AE84BCDFCCF5208480E356090258 /* OPGCountry.h */,
-				D9AECE604365B43C4C31D2BBBE6224AE /* OPGDownloadMedia.h */,
-				89E8805662D0B2E5F085A6C3A6688428 /* OPGForgotPassword.h */,
-				F1427109A2BE152621BA5F3BE4B1A28E /* OPGGeoFence.h */,
-				3FA5677169255FCE52CAAC59F7E95D6F /* OPGGeofenceSurvey.h */,
-				BBD8211962377CF33AF89EFB2B376FE0 /* OPGPanel.h */,
-				D7919AD320D9516F524C1633AB0D18AF /* OPGPanellistPanel.h */,
-				5D6D19B155038FDA186C7554E9700059 /* OPGPanellistProfile.h */,
-				0F795853A2D9BC0128E739E3988ED96F /* OPGPanelPanellist.h */,
-				0AC2CFC2B25C8209BCD31E52A6ACFD1A /* OPGSDK.h */,
-				4C7AA385BE5A8F066403CD8609AF05F3 /* OPGSurvey.h */,
-				F0127EB927ECB553CBC704B5606D6773 /* OPGSurveyPanel.h */,
-				4110A234F833504649E680D62667BF69 /* OPGTheme.h */,
-				B885533A3EC9C8F38507A77F5363E1DC /* OPGViewController.h */,
-				32E3A5E878996FC40D7A8594BA402A43 /* Frameworks */,
-				246530BB41959D06FBC7C006F761090B /* Other Supporting Files */,
-				D3A282862CA6D57C4A90A3C55F4992AF /* Resources */,
-				F5C867428F30559F8BF403E645ED2E6F /* Support Files */,
+				11C670549732C4FEA302EB4B342904CC /* OPGResourceBundle.bundle */,
 			);
-			name = OPGFeedbackSDKLite;
-			path = ../..;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -322,6 +233,77 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE06F8E649AB2C7DDB00D5ADFB4F0231 /* Other Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F27C535B24DA9E5FCBBFA81CC6A5573F /* NSArray+Comparisons.h */,
+				5794E89FC40A66E13A4CA377D4368889 /* NSData+OPGAESCrypt.h */,
+				FA275A1BCFE5345DC11FCE441BFC4881 /* NSData+OPGBase64.h */,
+				A5D7DF771B00B929DB84EE946ECBFEDC /* NSDictionary+Extensions.h */,
+				675A3065694CC038962786C07B29A332 /* NSMutableArray+QueueAdditions.h */,
+				A23D85D1CFEE87F8E03089E159E2488D /* NSObject+OPGSBJSON.h */,
+				F0F3C322F258C08EDC1BD2B220869409 /* NSString+OPGAESCrypt.h */,
+				A4C41443FD1868983189D6D49DF5B0ED /* NSString+OPGMD5.h */,
+				23A184C05BDFEAA16DB93A14F9839CB3 /* OpenSettings.h */,
+				6755E0C7DABFFF6608B5FE7EF65CD383 /* OPG.h */,
+				6B393AA155C3ED11F1D98842EE665510 /* OPGAssetLibraryFilesystem.h */,
+				B417DE303332D07A718A24BA798A1615 /* OPGAvailability.h */,
+				096A8DC467DC6553F6327DB8E6D119CF /* OPGAvailabilityDeprecated.h */,
+				F1E0EEB239EA2E36C71BFD7E8AAD5809 /* OPGBaseController.h */,
+				0662FA219F5FDAA785D02DE6CC062644 /* OPGCamera.h */,
+				8BDB99859B003E76D607A439E1B78FD2 /* OPGCapture.h */,
+				A2C4BE3742A8F2E6915C502DAB598A14 /* OPGCommandDelegate.h */,
+				0BF8EA01D7FDDBC69038B578B8EDEF8B /* OPGCommandDelegateImpl.h */,
+				2EA30EBF489CB2311843FEDD8262EB64 /* OPGCommandQueue.h */,
+				6FF58AB21C9C73E31660FB22A4A5AA1E /* OPGConfigParser.h */,
+				3E0B06268B5966508EF24C3250496E13 /* OPGConnection.h */,
+				B25BD103F9DBD0C77012426F6EB53586 /* OPGConstants.h */,
+				F03B3E143C89DC3C13C657D35B92FF8A /* OPGCryptoTransform.h */,
+				141796504FFB721976B679D422500ACE /* OPGDebug.h */,
+				27810D69D32E9228CA87DE7B946CA847 /* OPGDevice.h */,
+				5C3BE4CBEE637D45EB6DF40E9B158B67 /* OPGExif.h */,
+				FF3D7E26F807230C5A2CAEFF61E70857 /* OPGFile.h */,
+				A7B278FAB86B29C215AAECE999C24457 /* OPGHandleOpenURL.h */,
+				CF9541D2A2127CC1FF732368BEFC435F /* OPGImagePreviewPlugin.h */,
+				BD3EC1777733AF39FF7CB948EE5A650B /* OPGInvokedUrlCommand.h */,
+				67B62627EE760DFA18928F06AC9E8AB8 /* OPGJpegHeaderWriter.h */,
+				4D5FD32DE26AB9803D237FF877FD213E /* OPGJSON.h */,
+				5D0ECFB625F16CF0446CEBF68859FECD /* OPGJSON_private.h */,
+				E7BACD26BDFE8DF37FCB46C2D632E285 /* OPGLocalFilesystem.h */,
+				33B860B57504B291625DBFD4610411EA /* OPGLocalStorage.h */,
+				3463973C9109B839D134705B98CF97CD /* OPGLocation.h */,
+				12FC051CDBEDA34E666525CE457A1C96 /* OPGLogger.h */,
+				C3BD593188F9A3AAF69E0FF6F29B4215 /* OPGMediaPickerAndPreviewPlugin.h */,
+				0AD6E73D7B654C184F905EEF944C2BD9 /* OPGMediaPlugin.h */,
+				D87E0623074CDBAB6BFF96FB64348F3D /* OPGNetworkRequest.h */,
+				8C1C851FA97192E6FC189895C442386A /* OPGNReachability.h */,
+				34AF960FD566D212EA62DAF08DB03DD6 /* OPGParseResult.h */,
+				BB4F81B7E4C3925BF9BEA3054090AE80 /* OPGPlugin.h */,
+				353802D36FF6DDCAE40BC9C44508A275 /* OPGPluginResult.h */,
+				30FD73315AC5163B9702CACE5703F46B /* OPGReachability.h */,
+				DACEED925117D0A891A10B7C2C36493D /* OPGRequest.h */,
+				4827B962E31C0F61EB19AD4E47912711 /* OPGSBJSON.h */,
+				707248DE01FFCE45D54CE4C35DCD590B /* OPGSBJsonBase.h */,
+				A3BC70F84B77C46EB9445E3C57B61B4B /* OPGSBJsonParser.h */,
+				3FF24A7690FCA47BE22B6DC242332E8A /* OPGSBJsonWriter.h */,
+				D323552ED061D4BC88FAF286ED446D0B /* OPGScreenOrientationDelegate.h */,
+				9D7D730506CCE002BB49B6D2AC08E09D /* OPGScript.h */,
+				17BE67961F62B264971E001BD9AB8CC0 /* OPGShared.h */,
+				501A72C0E5D393A225C591D409E7A35C /* OPGTimer.h */,
+				48DBBF891E1E38EAD7B762C04A07E8AD /* OPGURLProtocol.h */,
+				DD36BE407F69DD6E58B664BC76E194F4 /* OPGUserAgentUtil.h */,
+				A054823A8D62C20FFF8620D33B8A854E /* OPGWebViewDelegate.h */,
+				87A7E6604FA8DC10B733B7E47130A536 /* OPGWhitelist.h */,
+				DD9FB95047B2EBA0D246E10824BEC6A4 /* PKMultipartInputStream.h */,
+				2B1C95500E6C72D08FF861DBEA4504D6 /* RootPlugin.h */,
+				5EDB4D3582F9F170D2527C3AC5B03ACE /* UIDevice+Extensions.h */,
+				86C580CEE26C86101D7D44299AC6018A /* UIImage+CropScaleOrientation.h */,
+				5AEC4C2001DF18E4C5AF43C22F4CB153 /* zxing-all-in-one.h */,
+			);
+			name = "Other Supporting Files";
+			path = "include/OPGSDK/Other Supporting Files";
 			sourceTree = "<group>";
 		};
 		C2A90E27B76C1994E263944821727534 /* Pods-OPGFeedbackSDKLite_Tests */ = {
@@ -342,6 +324,15 @@
 			path = "Target Support Files/Pods-OPGFeedbackSDKLite_Tests";
 			sourceTree = "<group>";
 		};
+		C896B5D23D5ACB0224A32A71E6B111AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				742196F1A9DFFA88CFF74841D796CD65 /* ResourceBundle-OPGFeedbackSDKLite-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OPGFeedbackSDKLite";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -350,29 +341,40 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D3A282862CA6D57C4A90A3C55F4992AF /* Resources */ = {
+		E9AF6AC9118CDBF6238E9C99572EE5CF /* OPGFeedbackSDKLite */ = {
 			isa = PBXGroup;
 			children = (
-				12EF0EC4F527C0A518180FE971D8FBF1 /* OPGResourceBundle.bundle */,
+				5E2CE769FEDFFEFF71431374D3AB206D /* OPGAuthenticate.h */,
+				1308E076207BFD00D08EBE893D4D9E3E /* OPGChangePassword.h */,
+				6665612B2B2908B4EDA2258CE20414DF /* OPGCountry.h */,
+				C601828A415AA18FFCC4C7B4472CBBF5 /* OPGDownloadMedia.h */,
+				FE7651B6424E1315505A8D4E774578D3 /* OPGForgotPassword.h */,
+				E6407F61393F778D733A42D19A274DC1 /* OPGGeoFence.h */,
+				5893ADAC7527F3D9250BCC94981EA62B /* OPGGeofenceSurvey.h */,
+				7238424740EAC40D9566C465F37568F1 /* OPGPanel.h */,
+				5E118EE0BC34A88B2C2554F2DED7D97A /* OPGPanellistPanel.h */,
+				24DB890ECAD181B471125BC8AF5DF7F7 /* OPGPanellistProfile.h */,
+				FF51123E7F1C748660422DE89E2B8569 /* OPGPanelPanellist.h */,
+				761FA95EF0B7E9FA856B9EAC4648469B /* OPGSDK.h */,
+				FDABB63C306E3645DD45D4263E821D43 /* OPGSurvey.h */,
+				75A8A0E9C8ACD7CDD5BC580C262FBF82 /* OPGSurveyPanel.h */,
+				F27C80DA1DE9E62E58B1A5DFD8E929E5 /* OPGTheme.h */,
+				4819F72A32A03D7B2BDB3764DE46C0B2 /* OPGViewController.h */,
+				30EE295ECF6D7330DB8F7246FF461CA8 /* Frameworks */,
+				BE06F8E649AB2C7DDB00D5ADFB4F0231 /* Other Supporting Files */,
+				89FA546FA1D5288AE8BB2DB7D6BE3BF1 /* Resources */,
+				C896B5D23D5ACB0224A32A71E6B111AB /* Support Files */,
 			);
-			name = Resources;
+			name = OPGFeedbackSDKLite;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F26923CFE20FB529473A58E1DE5388E2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8A4335CFA705C379C2C82100EF803958 /* OPGFeedbackSDKLite */,
+				E9AF6AC9118CDBF6238E9C99572EE5CF /* OPGFeedbackSDKLite */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F5C867428F30559F8BF403E645ED2E6F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FD748C9C283283886BF320EBFFEB7D49 /* ResourceBundle-OPGFeedbackSDKLite-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OPGFeedbackSDKLite";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
