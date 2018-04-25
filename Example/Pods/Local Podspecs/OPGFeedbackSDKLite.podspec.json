@@ -1,6 +1,6 @@
 {
   "name": "OPGFeedbackSDKLite",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "OPGFeedbackSDKLite is an easy to integrate iOS library for taking mobile surveys.",
   "description": "The OnePoint Global Mobile App SDK allows you to build your own research capabilities into mobile applications.",
   "homepage": "https://github.com/OnePointGlobal/OPGFeedbackSDKLite",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/OnePointGlobal/OPGFeedbackSDKLite.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
