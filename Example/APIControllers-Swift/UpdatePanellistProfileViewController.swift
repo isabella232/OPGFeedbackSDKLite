@@ -115,7 +115,7 @@ class UpdatePanellistProfileViewController: UIViewController, UITextFieldDelegat
         {
             do {
                 try sdk.update(profile)
-                let alertController = UIAlertController(title: "OPGSDKv0.1.1", message: "Profile Updated Successfully", preferredStyle: .alert)
+                let alertController = UIAlertController(title: "OPGSDKv0.1.2", message: "Profile Updated Successfully", preferredStyle: .alert)
 
                 let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
                 alertController.addAction(defaultAction)
@@ -126,7 +126,7 @@ class UpdatePanellistProfileViewController: UIViewController, UITextFieldDelegat
             catch{
                 print("Profile Update Failed")         /* @"Error Occured. Contact Support!" */
 
-                let alertController = UIAlertController(title: "OPGSDKv0.1.1", message: "Profile Update Failed", preferredStyle: .alert)
+                let alertController = UIAlertController(title: "OPGSDKv0.1.2", message: "Profile Update Failed", preferredStyle: .alert)
 
                 let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
                 alertController.addAction(defaultAction)
