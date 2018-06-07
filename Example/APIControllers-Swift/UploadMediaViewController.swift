@@ -72,7 +72,7 @@ class UploadMediaViewController: UIViewController,UIImagePickerControllerDelegat
     {
         if(self.mediaID==nil)
         {
-            let alertController = UIAlertController(title: "OPGSDKv0.1.2", message: "Media upload failed", preferredStyle: .alert)
+            let alertController = UIAlertController(title: "OPGSDKv0.1.3", message: "Media upload failed", preferredStyle: .alert)
             
             let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
             alertController.addAction(defaultAction)
@@ -81,7 +81,7 @@ class UploadMediaViewController: UIViewController,UIImagePickerControllerDelegat
         }
         else
         {
-            let alertController = UIAlertController(title: "OPGSDKv0.1.2", message: "Uploaded media ID is \(self.mediaID!)", preferredStyle: .alert)
+            let alertController = UIAlertController(title: "OPGSDKv0.1.3", message: "Uploaded media ID is \(self.mediaID!)", preferredStyle: .alert)
             
             let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
             alertController.addAction(defaultAction)
