@@ -29,7 +29,6 @@ class SurveyTableViewController: UITableViewController
     }
     
     // MARK: - Table view data source
-    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
@@ -39,10 +38,9 @@ class SurveyTableViewController: UITableViewController
         // #warning Incomplete implementation, return the number of rows
         return self.surveyListArray.count
     }
-    
-    
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCell(withIdentifier: "CELL") as UITableViewCell!
+        var cell = tableView.dequeueReusableCell(withIdentifier: "CELL") as UITableViewCell?
         if (cell == nil) {
             cell = UITableViewCell(style:.default, reuseIdentifier: "CELL")
         }
@@ -51,7 +49,6 @@ class SurveyTableViewController: UITableViewController
         cell?.textLabel!.text = survey.surveyName
         return cell!
     }
-    
     
     /*
      // Override to support conditional editing of the table view.
@@ -97,6 +94,4 @@ class SurveyTableViewController: UITableViewController
      // Pass the selected object to the new view controller.
      }
      */
-
-
 }

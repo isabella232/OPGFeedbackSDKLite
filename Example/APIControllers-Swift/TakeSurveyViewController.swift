@@ -31,7 +31,6 @@ class TakeSurveyViewController : OPGViewController, OPGSurveyDelegate
     }
     
     /***************** OPGSurveyDelegate Methods *******************/
-    
     func didSurveyStartLoad() {
         self.spinner.isHidden = false
         self.spinner.startAnimating()
@@ -44,6 +43,5 @@ class TakeSurveyViewController : OPGViewController, OPGSurveyDelegate
     
     func didSurveyCompleted() {
         self.navigationController?.popViewController(animated: true)
-
     }
 }

@@ -61,7 +61,6 @@ class GeofencingViewController: UIViewController, OPGGeoFenceSurveyDelegate, CLL
     
     @IBAction func switchTapped(_ sender: AnyObject) {
         let custom : UISwitch = sender as! UISwitch
-
         if custom.isOn {
             print("ON")
             self.getGeoSurveysFromServer()
@@ -80,7 +79,7 @@ class GeofencingViewController: UIViewController, OPGGeoFenceSurveyDelegate, CLL
     }
 
     func showAlert(regionEntered: OPGGeofenceSurvey) {
-        let alert = UIAlertController.init(title: "OPGSDKv0.1.3", message: ("Welcome to \(regionEntered.address!)!. You have a survey available!"), preferredStyle: UIAlertControllerStyle.alert)
+        let alert = UIAlertController.init(title: "OPGSDKv0.1.4", message: ("Welcome to \(regionEntered.address!)!. You have a survey available!"), preferredStyle: UIAlertControllerStyle.alert)
         alert.addAction(UIAlertAction(title: "Take Survey", style: UIAlertActionStyle.default, handler: {
             action in
             self.alertsArray.removeFirst()
@@ -98,6 +97,6 @@ class GeofencingViewController: UIViewController, OPGGeoFenceSurveyDelegate, CLL
 
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         print("User method called")
-}
+    }
 
 }

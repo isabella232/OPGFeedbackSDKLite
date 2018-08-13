@@ -7,10 +7,8 @@
 //
 
 import UIKit
-
 class AuthenticationViewController: UIViewController, UITextFieldDelegate
 {
-
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var password: UITextField!
     var obj : OPGAuthenticate?
@@ -36,32 +34,26 @@ class AuthenticationViewController: UIViewController, UITextFieldDelegate
         }
         catch{
             print("Authentication Failed")         /* @"Error Occured. Contact Support!" */
-            
         }
         
         if obj!.isSuccess.int32Value==1
         {
-            let alertController = UIAlertController(title: "OPGSDKv0.1.3", message: "Authentication Successful", preferredStyle: .alert)
-            
+            let alertController = UIAlertController(title: "OPGSDKv0.1.4", message: "Authentication Successful", preferredStyle: .alert)
             let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
             alertController.addAction(defaultAction)
-            
             present(alertController, animated: true, completion: nil)
         }
         else
         {
-            let alertController = UIAlertController(title: "OPGSDKv0.1.3", message: "Authentication Failed", preferredStyle: .alert)
-            
+            let alertController = UIAlertController(title: "OPGSDKv0.1.4", message: "Authentication Failed", preferredStyle: .alert)
             let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
             alertController.addAction(defaultAction)
-            
             present(alertController, animated: true, completion: nil)
         }
     }
     
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {   //delegate method
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {  
         textField.resignFirstResponder()
         return true
     }
-
 }

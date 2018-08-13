@@ -10,7 +10,6 @@ import UIKit
 
 class ChangePasswordViewController: UIViewController, UITextFieldDelegate
 {
-
     @IBOutlet weak var txtCurrPass: UITextField!
     @IBOutlet weak var txtNewPass: UITextField!
     var obj : OPGChangePassword!
@@ -34,7 +33,6 @@ class ChangePasswordViewController: UIViewController, UITextFieldDelegate
     @IBAction func changePassSwift(_ sender: AnyObject)
     {
         let sdk = OPGSDK()        // Creating OPGSDK instance
-        
         do {
             obj = try sdk.changePassword(txtCurrPass.text, newPassword: txtNewPass.text)
         }
@@ -44,22 +42,17 @@ class ChangePasswordViewController: UIViewController, UITextFieldDelegate
         }
         if (obj.isSuccess.boolValue == true)
         {
-            let alertController = UIAlertController(title: "OPGSDKv0.1.3", message: "Password Changed Successfully", preferredStyle: .alert)
-            
+            let alertController = UIAlertController(title: "OPGSDKv0.1.4", message: "Password Changed Successfully", preferredStyle: .alert)
             let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
             alertController.addAction(defaultAction)
-            
             present(alertController, animated: true, completion: nil)
         }
         else
         {
-            let alertController = UIAlertController(title: "OPGSDKv0.1.3", message: "Password Change Failed", preferredStyle: .alert)
-            
+            let alertController = UIAlertController(title: "OPGSDKv0.1.4", message: "Password Change Failed", preferredStyle: .alert)
             let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
             alertController.addAction(defaultAction)
-            
             present(alertController, animated: true, completion: nil)
         }
     }
-
 }

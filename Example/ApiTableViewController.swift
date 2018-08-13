@@ -17,15 +17,12 @@ class ApiTableViewController: UITableViewController {
     self.tableView.separatorColor = UIColor.orange
         // Do any additional setup after loading the view, typically from a nib.
         apiArray = ["Authenticate","Authenticate - Social Media","GetPanels","GetSurveys","Forgot password","Change Password","Download Media","Upload Media","GetPanellistProfile","UpdatePanellistProfile","GetCountries","Geofencing","Take Demo"]
-
-
 //        let bundlePath = Bundle.main.path(forResource: "OPGResourceBundle", ofType: "bundle")
 //        print("Bundle path: \(String(describing: bundlePath))")
         
     }
     
     // MARK: - Table view data source
-    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
@@ -35,25 +32,16 @@ class ApiTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return self.apiArray.count
     }
-    
-    
+
      override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
      let cell = tableView.dequeueReusableCell(withIdentifier: "tableViewCell", for: indexPath)
         cell.textLabel?.text = self.apiArray[indexPath.row]
-        
-        
-     
-     // Configure the cell...
-     
-     return cell
+        return cell
      }
-    
-    
+
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
-        
         let row = indexPath.row
-
         switch row {
         case 0  :
             self.performSegue(withIdentifier: "authenticate", sender: nil)
@@ -96,16 +84,11 @@ class ApiTableViewController: UITableViewController {
             break
         default : break
         }
-
-
     }
-    
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 

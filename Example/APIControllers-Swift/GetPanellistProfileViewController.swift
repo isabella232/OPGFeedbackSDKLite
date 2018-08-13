@@ -75,9 +75,6 @@ class GetPanellistProfileViewController: UIViewController, UITextFieldDelegate
         }
         catch{
             print("Get Panellist Profile Failed")         /* @"Error Occured. Contact Support!" */
-            
         }
-        
     }
-    
 }
