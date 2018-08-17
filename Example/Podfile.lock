@@ -1,5 +1,5 @@
 PODS:
-  - OPGFeedbackSDKLite (0.1.3)
+  - OPGFeedbackSDKLite (0.1.4)
 
 DEPENDENCIES:
   - OPGFeedbackSDKLite (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OPGFeedbackSDKLite: 7faac2c80e95082b34b52bf194a214b873a00b55
+  OPGFeedbackSDKLite: 5ef33d0e13f0a372d950ffa3aa27718f20f6accd
 
 PODFILE CHECKSUM: 0b30df25eb5eb593e790d8809d30b26f363226b2
 

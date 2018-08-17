@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OPGFeedbackSDKLite'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'OPGFeedbackSDKLite is an easy to integrate iOS library for taking mobile surveys.'
 
 
