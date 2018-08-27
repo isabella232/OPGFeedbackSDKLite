@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DownloadMediaViewController: UIViewController, UITextFieldDelegate
+class DownloadMediaViewController: RootViewController, UITextFieldDelegate
 {
     @IBOutlet weak var txtMediaID: UITextField!
     @IBOutlet weak var txtMediaType: UITextField!
@@ -40,19 +40,13 @@ class DownloadMediaViewController: UIViewController, UITextFieldDelegate
             print("Download Media Failed")         /* @"Error Occured. Contact Support!" */
         }
         
-        if (obj?.isSuccess.int32Value==1)
+       if (obj?.isSuccess.int32Value==1)
         {
-            let alertController = UIAlertController(title: "OPGSDKv0.1.4", message: "Media Download Successful!", preferredStyle: .alert)
-            let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-            alertController.addAction(defaultAction)
-            present(alertController, animated: true, completion: nil)
+            super.showAlert(alertMessage: "Media Download Successful!")
         }
         else
         {
-            let alertController = UIAlertController(title: "OPGSDKv0.1.4", message: "Media Download Failed!", preferredStyle: .alert)
-            let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-            alertController.addAction(defaultAction)
-            present(alertController, animated: true, completion: nil)
+            super.showAlert(alertMessage: "Media Download Failed!")
         }
     }
 }

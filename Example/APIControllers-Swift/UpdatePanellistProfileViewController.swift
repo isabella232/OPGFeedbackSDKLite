@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UpdatePanellistProfileViewController: UIViewController, UITextFieldDelegate
+class UpdatePanellistProfileViewController: RootViewController, UITextFieldDelegate
 {
     @IBOutlet weak var viewHeight: NSLayoutConstraint!
     var datePicker : UIDatePicker!
@@ -115,31 +115,17 @@ class UpdatePanellistProfileViewController: UIViewController, UITextFieldDelegat
         {
             do {
                 try sdk.update(profile)
-                let alertController = UIAlertController(title: "OPGSDKv0.1.4", message: "Profile Updated Successfully", preferredStyle: .alert)
-
-                let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-                alertController.addAction(defaultAction)
-
-                present(alertController, animated: true, completion: nil)
-
+                super.showAlert(alertMessage: "Profile Updated Successfully")
             }
             catch{
                 print("Profile Update Failed")         /* @"Error Occured. Contact Support!" */
-
-                let alertController = UIAlertController(title: "OPGSDKv0.1.4", message: "Profile Update Failed", preferredStyle: .alert)
-
-                let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-                alertController.addAction(defaultAction)
-
-                present(alertController, animated: true, completion: nil)
-                
+                super.showAlert(alertMessage: "Profile Update Failed")
             }
         }
     }
     
     func pickUpDate(textField : UITextField)
     {
-        
         // DatePicker
         let rect = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 216)
         self.datePicker = UIDatePicker(frame:rect)
@@ -161,10 +147,8 @@ class UpdatePanellistProfileViewController: UIViewController, UITextFieldDelegat
         toolBar.setItems([cancelButton, spaceButton, doneButton], animated: false)
         toolBar.isUserInteractionEnabled = true
         textField.inputAccessoryView = toolBar
-        
     }
 
-    
     @objc func doneClick()
     {
         let dateFormatter = DateFormatter()
@@ -177,5 +161,4 @@ class UpdatePanellistProfileViewController: UIViewController, UITextFieldDelegat
     {
         txtDOB.resignFirstResponder()
     }
-
 }

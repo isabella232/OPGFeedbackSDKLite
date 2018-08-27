@@ -15,6 +15,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		7828119F2133C3090052AAF1 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7828119E2133C3090052AAF1 /* RootViewController.swift */; };
+		782811A02133C3090052AAF1 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7828119E2133C3090052AAF1 /* RootViewController.swift */; };
 		7898AC111F8E1D67005CA7D2 /* surveydefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7898AC101F8E1D67005CA7D2 /* surveydefault.jpg */; };
 		7898AC131F8E1D73005CA7D2 /* ApiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898AC121F8E1D73005CA7D2 /* ApiTableViewController.swift */; };
 		7898AC261F8E1D89005CA7D2 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898AC151F8E1D89005CA7D2 /* AuthenticationViewController.swift */; };
@@ -62,6 +64,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7237BDB622C9A41C76658056 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		78245E961F8CDA070059BE03 /* OPGFeedbackSDKLite_Example-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OPGFeedbackSDKLite_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		7828119E2133C3090052AAF1 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RootViewController.swift; path = "APIControllers-Swift/RootViewController.swift"; sourceTree = SOURCE_ROOT; };
 		7898AC101F8E1D67005CA7D2 /* surveydefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = surveydefault.jpg; path = Images/surveydefault.jpg; sourceTree = SOURCE_ROOT; };
 		7898AC121F8E1D73005CA7D2 /* ApiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		7898AC151F8E1D89005CA7D2 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthenticationViewController.swift; path = "APIControllers-Swift/AuthenticationViewController.swift"; sourceTree = SOURCE_ROOT; };
@@ -193,6 +196,7 @@
 		7898AC141F8E1D7D005CA7D2 /* APIControllers-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				7828119E2133C3090052AAF1 /* RootViewController.swift */,
 				7898AC151F8E1D89005CA7D2 /* AuthenticationViewController.swift */,
 				7898AC161F8E1D89005CA7D2 /* AuthenticationWithSocialMediaViewController.swift */,
 				7898AC171F8E1D89005CA7D2 /* ChangePasswordViewController.swift */,
@@ -425,6 +429,7 @@
 				7898AC301F8E1D89005CA7D2 /* GetSurveysViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				7898AC311F8E1D89005CA7D2 /* SurveyListViewController.swift in Sources */,
+				7828119F2133C3090052AAF1 /* RootViewController.swift in Sources */,
 				7898AC131F8E1D73005CA7D2 /* ApiTableViewController.swift in Sources */,
 				7898AC2F1F8E1D89005CA7D2 /* GetPanelsViewController.swift in Sources */,
 				7898AC291F8E1D89005CA7D2 /* CountryTableViewController.swift in Sources */,
@@ -435,6 +440,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782811A02133C3090052AAF1 /* RootViewController.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

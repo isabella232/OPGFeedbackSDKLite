@@ -8,9 +8,8 @@
 
 import UIKit
 
-class UploadMediaViewController: UIViewController,UIImagePickerControllerDelegate, UINavigationControllerDelegate
+class UploadMediaViewController: RootViewController,UIImagePickerControllerDelegate, UINavigationControllerDelegate
 {
-
     var mediaID : NSString?
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,14 +21,12 @@ class UploadMediaViewController: UIViewController,UIImagePickerControllerDelegat
         // Dispose of any resources that can be recreated.
     }
     
-    
     @IBAction func uploadMediaSwift(_ sender: AnyObject)
     {
         let imagePicker = UIImagePickerController()
         imagePicker.allowsEditing = false
         imagePicker.delegate=self
         imagePicker.sourceType = .photoLibrary
-        
         present(imagePicker, animated: true, completion: nil)
     }
     
@@ -37,11 +34,9 @@ class UploadMediaViewController: UIViewController,UIImagePickerControllerDelegat
     {
         let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
         print("documentsPath: \(documentsPath)")
-
         let image:UIImage = (info[UIImagePickerControllerOriginalImage] as? UIImage)!
         let documentDirectory = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
         let photoURL          = NSURL(fileURLWithPath: documentDirectory)
-
         let localPath         = photoURL.appendingPathComponent("profileimage")
         let data              = UIImageJPEGRepresentation(image, 0.9)
 
@@ -55,13 +50,11 @@ class UploadMediaViewController: UIViewController,UIImagePickerControllerDelegat
         }
 
         let sdk = OPGSDK()        // Creating OPGSDK instance
-        
         do {
             mediaID = try sdk.uploadMediaFile(localPath?.absoluteString) as NSString?
         }
         catch{
             print("Upload Media Media Failed")         /* @"Error Occured. Contact Support!" */
-            
         }
         print("Uploaded media ID is \(String(describing: mediaID))" )
         self.dismiss(animated: true, completion: nil);
@@ -70,23 +63,11 @@ class UploadMediaViewController: UIViewController,UIImagePickerControllerDelegat
 
     func showAlert()
     {
-        if(self.mediaID==nil)
-        {
-            let alertController = UIAlertController(title: "OPGSDKv0.1.4", message: "Media upload failed", preferredStyle: .alert)
-            
-            let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-            alertController.addAction(defaultAction)
-            
-            present(alertController, animated: true, completion: nil)
+        if(self.mediaID == nil) {
+            super.showAlert(alertMessage: "Media upload failed")
         }
-        else
-        {
-            let alertController = UIAlertController(title: "OPGSDKv0.1.4", message: "Uploaded media ID is \(self.mediaID!)", preferredStyle: .alert)
-            
-            let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-            alertController.addAction(defaultAction)
-            
-            present(alertController, animated: true, completion: nil)
+        else {
+            super.showAlert(alertMessage: "Uploaded media ID is \(self.mediaID!)")
         }
     }
 }
