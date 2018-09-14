@@ -373,7 +373,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-OPGFeedbackSDKLite_Example/Pods-OPGFeedbackSDKLite_Example-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-OPGFeedbackSDKLite_Example/Pods-OPGFeedbackSDKLite_Example-resources.sh",
 				"${PODS_ROOT}/../../OPGFeedbackSDKLite/Assets/OPGResourceBundle.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/OPGFeedbackSDKLite/OPGFeedbackSDKLite.bundle",
 			);
@@ -384,7 +384,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OPGFeedbackSDKLite_Example/Pods-OPGFeedbackSDKLite_Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OPGFeedbackSDKLite_Example/Pods-OPGFeedbackSDKLite_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FE7BD911E291A00CC89CAB64 /* [CP] Check Pods Manifest.lock */ = {

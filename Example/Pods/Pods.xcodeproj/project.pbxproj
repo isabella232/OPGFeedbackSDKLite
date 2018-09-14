@@ -6,294 +6,330 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		ADC3FE906D83EB415EF4A2738968EEC3 /* OPGFeedbackSDKLite */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F53968BFDABBA1651D7932CC2AA9938C /* Build configuration list for PBXAggregateTarget "OPGFeedbackSDKLite" */;
+			buildPhases = (
+			);
+			dependencies = (
+				3235B5358B075CD405F945E8BF6D5335 /* PBXTargetDependency */,
+			);
+			name = OPGFeedbackSDKLite;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		2CF4D2E9C219CA41CE7294F3490D9FD3 /* Pods-OPGFeedbackSDKLite_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7BCDC96F47A24649EE7AFE0A24038A /* Pods-OPGFeedbackSDKLite_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3038AF021D99F01B1F05254D3F1376F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		33A9A781A1058A541C7323D53EB19969 /* Pods-OPGFeedbackSDKLite_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 176BD9FDB228FD5080301615E9BEA549 /* Pods-OPGFeedbackSDKLite_Tests-dummy.m */; };
-		33E780E3688F63EC74C9BC8267399FB7 /* Pods-OPGFeedbackSDKLite_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 878811EEE7F923CEE6F718271BE56F24 /* Pods-OPGFeedbackSDKLite_Example-dummy.m */; };
-		379AC0804888BEA91B4B251D7341B098 /* OPGResourceBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36AF99FDE4EFED9D14FB327D1EC721AE /* OPGResourceBundle.bundle */; };
-		4896605D4AE53A125C31A3C5897C62FF /* Pods-OPGFeedbackSDKLite_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D300EE919BCA594339DD0C74D4553DC /* Pods-OPGFeedbackSDKLite_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE7A48FA16A873E5D546C9FCD7FE4DD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		034A1D391F4DA73709DA8882A0C090E1 /* Pods-OPGFeedbackSDKLite_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D47F15991FAFF578C8244F47B10C7365 /* Pods-OPGFeedbackSDKLite_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C8E9299D9919BD52A22BAAFC9B71B35 /* Pods-OPGFeedbackSDKLite_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D6979DDFBA3BDDDA7ACBCE054A5340 /* Pods-OPGFeedbackSDKLite_Example-dummy.m */; };
+		2196420402DB6839B54DF024D34D7A06 /* Pods-OPGFeedbackSDKLite_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FDCE239B3695DCE66BE90B9A3E05B41 /* Pods-OPGFeedbackSDKLite_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A42CDE6DAE30147C0C9683E70EB8FC5 /* Pods-OPGFeedbackSDKLite_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4661DA4904BFE2C2B26F3961DB40EE /* Pods-OPGFeedbackSDKLite_Tests-dummy.m */; };
+		6CEDA12761295F4E24E39DF4CADA2F76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9D83E5CF3753579AF66DAE66BDEF6783 /* OPGResourceBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 498A7612707F5CD86667A00B49EC7012 /* OPGResourceBundle.bundle */; };
+		FF190BC8D8EB7ACD2AB3E5A216FFAF7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		531C7645E845DA5243FCD23B4D7BE487 /* PBXContainerItemProxy */ = {
+		02A5C582A59EED01A2CCC93D846F4D87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E8736C85EB9F82F5071BF7F8BEA522F7;
+			remoteGlobalIDString = ADC3FE906D83EB415EF4A2738968EEC3;
+			remoteInfo = OPGFeedbackSDKLite;
+		};
+		2FBCFA6B42157001AD8C33BBDBE46552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5415A3D7BF3A143E133813918FF9C15;
 			remoteInfo = "Pods-OPGFeedbackSDKLite_Example";
 		};
-		E7F82D23FBC70BAF7762DBFC2DED56C7 /* PBXContainerItemProxy */ = {
+		6C89AD41A63A0692FD86E5147351C923 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E15B2E99FCF78C012FBB18FD90A435F2;
+			remoteGlobalIDString = 2015A081230C660451FBBB2E3E74B10E;
 			remoteInfo = "OPGFeedbackSDKLite-OPGFeedbackSDKLite";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0143C1B3613E72916C0A4CA96688C5A4 /* OPGFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGFile.h; sourceTree = "<group>"; };
-		0166FAAABA257E4257645E96ABE93D3F /* OPGPluginResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGPluginResult.h; sourceTree = "<group>"; };
-		04C1B91671F3D22E89FE7217E797977C /* OPGSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGSDK.h; path = include/OPGSDK/OPGSDK.h; sourceTree = "<group>"; };
-		05670810180A818D7B97991EFC2C7A4E /* OPGCommandDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCommandDelegate.h; sourceTree = "<group>"; };
-		074DD1BCE84FA65D59A7744B33114C16 /* OPGUserAgentUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGUserAgentUtil.h; sourceTree = "<group>"; };
-		07CA7365618ED73F0C191A0A8F8DB3AC /* OPGHandleOpenURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGHandleOpenURL.h; sourceTree = "<group>"; };
-		0AAF6C9D1F1DC3F5A2F915F05A07492C /* OPGBaseController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGBaseController.h; sourceTree = "<group>"; };
-		0D747D985B59631E577063ABBFA63BE1 /* zxing-all-in-one.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zxing-all-in-one.h"; sourceTree = "<group>"; };
-		0D9857E71064D5CFE8D67BAE9AD7F2C9 /* OPGSurveyPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGSurveyPanel.h; path = include/OPGSDK/OPGSurveyPanel.h; sourceTree = "<group>"; };
-		0EB7394063BB938172FDABDF1DF64CF5 /* Pods-OPGFeedbackSDKLite_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OPGFeedbackSDKLite_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0F406EFF94E0B9E003E1ED5EF3F7E911 /* OPGAvailabilityDeprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGAvailabilityDeprecated.h; sourceTree = "<group>"; };
-		0FF9D851629E86FB2602142863496155 /* UIImage+CropScaleOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropScaleOrientation.h"; sourceTree = "<group>"; };
-		140EB485FD09ACFF1DEF0CD3FB267872 /* Pods-OPGFeedbackSDKLite_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OPGFeedbackSDKLite_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		176BD9FDB228FD5080301615E9BEA549 /* Pods-OPGFeedbackSDKLite_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OPGFeedbackSDKLite_Tests-dummy.m"; sourceTree = "<group>"; };
-		182A9D65D3EC0527D0F8F1B1FB2F723F /* OPGForgotPassword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGForgotPassword.h; path = include/OPGSDK/OPGForgotPassword.h; sourceTree = "<group>"; };
-		1B070369214325B402CBFE405108EEBD /* OPGJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGJSON.h; sourceTree = "<group>"; };
-		1BC4B4A505350264E8CA0F75B664007A /* OPGAssetLibraryFilesystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGAssetLibraryFilesystem.h; sourceTree = "<group>"; };
-		1E72A694DB8B8E2160E5CFA98F340A62 /* OPGFeedbackSDKLite.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = OPGFeedbackSDKLite.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1F7EDC26F2C4D372AA7FEDF65941FB4C /* UIDevice+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extensions.h"; sourceTree = "<group>"; };
-		24900155773B8E59D2F6B3B038D7883F /* Pods-OPGFeedbackSDKLite_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OPGFeedbackSDKLite_Tests.modulemap"; sourceTree = "<group>"; };
-		2BE9F084225184BD79044BCD87A8D541 /* Pods-OPGFeedbackSDKLite_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OPGFeedbackSDKLite_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2D6F9E2CD8D5EF4871E70AD06BC477BC /* OPGSBJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGSBJSON.h; sourceTree = "<group>"; };
-		2F9F54DDE0BFD260E7A2192053F387B4 /* OPGNReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGNReachability.h; sourceTree = "<group>"; };
-		31159C52A5957DE504B8760A7C42F589 /* Pods-OPGFeedbackSDKLite_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OPGFeedbackSDKLite_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		313A688DF93CE18680E3F484E40DBA50 /* OPGAuthenticate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGAuthenticate.h; path = include/OPGSDK/OPGAuthenticate.h; sourceTree = "<group>"; };
-		36AF99FDE4EFED9D14FB327D1EC721AE /* OPGResourceBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = OPGResourceBundle.bundle; path = OPGFeedbackSDKLite/Assets/OPGResourceBundle.bundle; sourceTree = "<group>"; };
-		381BE52CF6D71B65BEB064E08C1B99C0 /* OPGSBJsonWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGSBJsonWriter.h; sourceTree = "<group>"; };
-		3842F9CB8BA3564E38FF8778B9B5332F /* PKMultipartInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PKMultipartInputStream.h; sourceTree = "<group>"; };
-		387A5B910A28876C13E2AF5F96750840 /* OPGMediaPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGMediaPlugin.h; sourceTree = "<group>"; };
-		3AD9378F23C66D225556996F79732685 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3CE7502E2A0EB5298ECA8B190AD2ED77 /* Pods_OPGFeedbackSDKLite_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OPGFeedbackSDKLite_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D655E4ECF5A14A280B8F1B2BE72D745 /* OPGNetworkRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGNetworkRequest.h; sourceTree = "<group>"; };
-		3D7BCDC96F47A24649EE7AFE0A24038A /* Pods-OPGFeedbackSDKLite_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OPGFeedbackSDKLite_Example-umbrella.h"; sourceTree = "<group>"; };
-		40D2C0B93B2A9F6E160CA3C62F966A97 /* Pods-OPGFeedbackSDKLite_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OPGFeedbackSDKLite_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4246F868A7E6798593FEC6E6844CB0FD /* OPGScreenOrientationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGScreenOrientationDelegate.h; sourceTree = "<group>"; };
-		439A0266C1689872A1E829803F35505C /* NSObject+OPGSBJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+OPGSBJSON.h"; sourceTree = "<group>"; };
-		43A59A68802C95ECC0FB20BFBF310319 /* OPGLocalStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGLocalStorage.h; sourceTree = "<group>"; };
-		464D3E08769581FC699820BD1CB730B3 /* OPGMediaPickerAndPreviewPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGMediaPickerAndPreviewPlugin.h; sourceTree = "<group>"; };
-		4D300EE919BCA594339DD0C74D4553DC /* Pods-OPGFeedbackSDKLite_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OPGFeedbackSDKLite_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5000B340F553B2D4049D916374982E70 /* OPGPanelPanellist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGPanelPanellist.h; path = include/OPGSDK/OPGPanelPanellist.h; sourceTree = "<group>"; };
-		526D40FC7ECC22737F59753EC210479E /* OPGSBJsonBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGSBJsonBase.h; sourceTree = "<group>"; };
-		52918BC463B00E019D949E5F2DD11DFB /* Pods-OPGFeedbackSDKLite_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OPGFeedbackSDKLite_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		547E3D5D4EDE9EBAF98B1962BAEACF1F /* OPGInvokedUrlCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGInvokedUrlCommand.h; sourceTree = "<group>"; };
-		54E234C5ADE60EB1F488AE382460F48C /* OPGURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGURLProtocol.h; sourceTree = "<group>"; };
-		57FB2581BDA17FB282389137D5619118 /* NSDictionary+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extensions.h"; sourceTree = "<group>"; };
-		5C90E73188D66FD8577B6843AE58CED0 /* OPGCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCamera.h; sourceTree = "<group>"; };
-		5E3A3644C86DF2588554B3E8238BA429 /* OPGScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGScript.h; sourceTree = "<group>"; };
-		5E7B294EC3D513D86398D7D903E208BE /* OPGAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGAvailability.h; sourceTree = "<group>"; };
-		631AE8AA357E36FF13210B1902ACBB3B /* OPGCountry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGCountry.h; path = include/OPGSDK/OPGCountry.h; sourceTree = "<group>"; };
-		64709C5024EEBB2F0034AAF7A3E894DC /* OPGViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGViewController.h; path = include/OPGSDK/OPGViewController.h; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6643B4A4D74EBA8803D35154F031A562 /* OPGWhitelist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGWhitelist.h; sourceTree = "<group>"; };
-		68E4167DA26F6645B8B3A5B5CA5CAFF3 /* OPGDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGDevice.h; sourceTree = "<group>"; };
-		6958906CFE1D11E64E2D9421394EEAF8 /* OPGImagePreviewPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGImagePreviewPlugin.h; sourceTree = "<group>"; };
-		71D1E55A78214BF2434E2DBB72CCE089 /* OPGPanellistPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGPanellistPanel.h; path = include/OPGSDK/OPGPanellistPanel.h; sourceTree = "<group>"; };
-		73EAE4B29439F00509789A139408CB43 /* Pods-OPGFeedbackSDKLite_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OPGFeedbackSDKLite_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7744980BF978577EE5953EEEEB27F67A /* NSString+OPGMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+OPGMD5.h"; sourceTree = "<group>"; };
-		7791A503F7A907B052B42CCC98191E5C /* OPGLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGLocation.h; sourceTree = "<group>"; };
-		78A398A6AC4E4820FC7C568D96A65E24 /* OPGCommandQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCommandQueue.h; sourceTree = "<group>"; };
-		7A4611B079A5D16431FF95F107944699 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B554C34BAD5F16F1025767EE2E15280 /* OPGConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGConstants.h; sourceTree = "<group>"; };
-		7E10CDB21C9874E1243E5F4B438B03EB /* OPGPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGPanel.h; path = include/OPGSDK/OPGPanel.h; sourceTree = "<group>"; };
-		816A38731C7A3FBE34EB052A3EFBFC4D /* OPGJpegHeaderWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGJpegHeaderWriter.h; sourceTree = "<group>"; };
-		819A8E230E42DB41E4AAD5D8EAACB308 /* Pods-OPGFeedbackSDKLite_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OPGFeedbackSDKLite_Example-resources.sh"; sourceTree = "<group>"; };
-		878811EEE7F923CEE6F718271BE56F24 /* Pods-OPGFeedbackSDKLite_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OPGFeedbackSDKLite_Example-dummy.m"; sourceTree = "<group>"; };
-		8ACC1539294F4F536D09D46A49BE8B62 /* OPGTheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGTheme.h; path = include/OPGSDK/OPGTheme.h; sourceTree = "<group>"; };
-		8BAC2963938C007306DFF217D3E76577 /* NSData+OPGBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+OPGBase64.h"; sourceTree = "<group>"; };
-		90CFEAB54DB92E60F65A5E88122BAEAF /* OPGWebViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGWebViewDelegate.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		941D7F99118DBAE392283EC852CE5D7F /* OPG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPG.h; sourceTree = "<group>"; };
-		9492A339CFB5603D01C1EF008B9D63F9 /* OPGGeofenceSurvey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGGeofenceSurvey.h; path = include/OPGSDK/OPGGeofenceSurvey.h; sourceTree = "<group>"; };
-		953BBDE36CC0E6018158AA1654037A79 /* OPGChangePassword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGChangePassword.h; path = include/OPGSDK/OPGChangePassword.h; sourceTree = "<group>"; };
-		95550F2516B4BCCD27262E7588DCFC57 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		95600B43622F6246B75B74A9EA38219D /* NSData+OPGAESCrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+OPGAESCrypt.h"; sourceTree = "<group>"; };
-		96DABB99FD744B465EA67E374429ACEC /* OPGGeoFence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGGeoFence.h; path = include/OPGSDK/OPGGeoFence.h; sourceTree = "<group>"; };
-		971533DA60FD1CDD9282AB58C812ED06 /* OPGConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGConnection.h; sourceTree = "<group>"; };
-		99A31F0B55CD50BDE500D51AAC662D0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D66719B3AF38815ED0CAF11C06F450D /* libOnePointSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOnePointSDK.a; path = lib/libOnePointSDK.a; sourceTree = "<group>"; };
-		9D889ECFFEE0DE7A744224B23EF19D77 /* OPGSBJsonParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGSBJsonParser.h; sourceTree = "<group>"; };
-		A1D40693C570954E130DF91E32B82925 /* ResourceBundle-OPGFeedbackSDKLite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OPGFeedbackSDKLite-Info.plist"; sourceTree = "<group>"; };
-		A356460FC4A528C516B398DB273C00DF /* OPGDownloadMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGDownloadMedia.h; path = include/OPGSDK/OPGDownloadMedia.h; sourceTree = "<group>"; };
-		AB1858FAEA18DD47F678028B130623EF /* Pods-OPGFeedbackSDKLite_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OPGFeedbackSDKLite_Tests-resources.sh"; sourceTree = "<group>"; };
-		B193D4F987463339B4F35B7BD6D4EA3A /* OPGLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGLogger.h; sourceTree = "<group>"; };
-		B2B58DBF7D4DB57F61866DE8CDF35155 /* OPGPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGPlugin.h; sourceTree = "<group>"; };
-		B31547ABE8FDC76D15447FCEE5B75991 /* OPGFeedbackSDKLite.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OPGFeedbackSDKLite.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		B51A6DF843F9C22DFDD88A3A97306FD2 /* OPGCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCapture.h; sourceTree = "<group>"; };
-		B834244F30A8EB420ED377ECC51F1B0C /* Pods-OPGFeedbackSDKLite_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OPGFeedbackSDKLite_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B85EB7D915D75AD6221AA0DD3EC74C78 /* OPGDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGDebug.h; sourceTree = "<group>"; };
-		BE0E746B3568A9EAC43862788D143C97 /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
-		C0A72530AB04201C5430AAA096EC913E /* OPGConfigParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGConfigParser.h; sourceTree = "<group>"; };
-		C0EFA9EF0C1B8C4FB559F5D194B40945 /* OPGCommandDelegateImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCommandDelegateImpl.h; sourceTree = "<group>"; };
-		C118CA267EF032F645C89D30783DEDCC /* OPGJSON_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGJSON_private.h; sourceTree = "<group>"; };
-		C44A8B3924A733E55622764B00BA890C /* OPGPanellistProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGPanellistProfile.h; path = include/OPGSDK/OPGPanellistProfile.h; sourceTree = "<group>"; };
-		D505FD4F59AAC0943D1725D1B747EA92 /* OPGExif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGExif.h; sourceTree = "<group>"; };
-		DA8C7592BBC93041460DE13D55296A8A /* RootPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RootPlugin.h; sourceTree = "<group>"; };
-		DB973C2ED8C7459B7440008EE7B049EF /* Pods_OPGFeedbackSDKLite_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OPGFeedbackSDKLite_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD626F1F2842190A862C05F5F426C059 /* Pods-OPGFeedbackSDKLite_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OPGFeedbackSDKLite_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E17766CFA40617EE30068139FD9C3962 /* OPGTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGTimer.h; sourceTree = "<group>"; };
-		E441986733E609705995B7A94858137E /* NSArray+Comparisons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+Comparisons.h"; sourceTree = "<group>"; };
-		EBE11646852F8571D24E4EB77CB1E5AD /* Pods-OPGFeedbackSDKLite_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OPGFeedbackSDKLite_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EC0D0FAD2B28EE8C5252905DF9C91B33 /* NSString+OPGAESCrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+OPGAESCrypt.h"; sourceTree = "<group>"; };
-		ECA20B43FCAC7F32055D6404E958D62C /* OPGCryptoTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCryptoTransform.h; sourceTree = "<group>"; };
-		ED986D98088D066652E1EDD0274A6B10 /* OPGParseResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGParseResult.h; sourceTree = "<group>"; };
-		EE9531A00596F2A02BBE982E30D00804 /* OPGRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGRequest.h; sourceTree = "<group>"; };
-		F286513448C2AA4504F58355BC326596 /* OPGSurvey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGSurvey.h; path = include/OPGSDK/OPGSurvey.h; sourceTree = "<group>"; };
-		F342C0C9B56AFDA4ACD87477632353C4 /* OpenSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OpenSettings.h; sourceTree = "<group>"; };
-		FB74F7D56818F0A58E82CA2BCEECCF0F /* Pods-OPGFeedbackSDKLite_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OPGFeedbackSDKLite_Example.modulemap"; sourceTree = "<group>"; };
-		FD9D5691B13CF19E9075BCF9E269D113 /* OPGShared.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGShared.h; sourceTree = "<group>"; };
-		FDD552C85284486386D341F8F540CFFB /* OPGLocalFilesystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGLocalFilesystem.h; sourceTree = "<group>"; };
-		FF8AA1E4AC44FDB3C99E3F6355FDF66C /* OPGReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGReachability.h; sourceTree = "<group>"; };
+		0603AFCBEF5867DC08EA78653A41834E /* NSString+OPGAESCrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+OPGAESCrypt.h"; sourceTree = "<group>"; };
+		08D2CD645C7CE1B578DC807927879FE3 /* NSString+OPGMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+OPGMD5.h"; sourceTree = "<group>"; };
+		0BE76518262F6EB6A2C28A345DC13C17 /* OPGPanellistPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGPanellistPanel.h; path = include/OPGSDK/OPGPanellistPanel.h; sourceTree = "<group>"; };
+		0E75AFACD9CB8F2F7E64A6393B78BA98 /* OPGPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGPanel.h; path = include/OPGSDK/OPGPanel.h; sourceTree = "<group>"; };
+		132AF376AAEBAB9E865F409850849391 /* Pods-OPGFeedbackSDKLite_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OPGFeedbackSDKLite_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		13EEEFEACDD01E20AB0138A93E0E4293 /* libOnePointSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libOnePointSDK.a; path = lib/libOnePointSDK.a; sourceTree = "<group>"; };
+		1432B32DA6AF131DE606AF4CB9B98809 /* OPGAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGAvailability.h; sourceTree = "<group>"; };
+		149095CB4C951990015B77028F6848F3 /* NSArray+Comparisons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+Comparisons.h"; sourceTree = "<group>"; };
+		1704FFFE34D1060701AEAA64FA3AA52F /* OPGDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGDebug.h; sourceTree = "<group>"; };
+		19D4E390965C014242E5AE52271B6252 /* OPGCountry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGCountry.h; path = include/OPGSDK/OPGCountry.h; sourceTree = "<group>"; };
+		1DA35F7AC39F34DA1038D05BF3AFE4BA /* OPGCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCapture.h; sourceTree = "<group>"; };
+		1FDCE239B3695DCE66BE90B9A3E05B41 /* Pods-OPGFeedbackSDKLite_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OPGFeedbackSDKLite_Example-umbrella.h"; sourceTree = "<group>"; };
+		262083A782B50245772677D7531CF8B6 /* OPGPanellistProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGPanellistProfile.h; path = include/OPGSDK/OPGPanellistProfile.h; sourceTree = "<group>"; };
+		263A5222EF342B86799632DADC62D565 /* OPGRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGRequest.h; sourceTree = "<group>"; };
+		2642261A48595B75580CEDCC658BF622 /* OPGMediaPickerAndPreviewPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGMediaPickerAndPreviewPlugin.h; sourceTree = "<group>"; };
+		2A2FFC0FEE541146ACAAD923195CB71A /* OPGMediaPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGMediaPlugin.h; sourceTree = "<group>"; };
+		2B4C0752AD075872C3880B676A797D9C /* OPGInvokedUrlCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGInvokedUrlCommand.h; sourceTree = "<group>"; };
+		2D96500CDEFBD0CE6AE2A99B6B30AD5A /* OPGNetworkRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGNetworkRequest.h; sourceTree = "<group>"; };
+		30568C9B9CC58755B53E5F54D611CF0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3194919B76B076F59055C9FD2CF9D5F4 /* OPGExif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGExif.h; sourceTree = "<group>"; };
+		3A0F9707B6CF6EF851A3EBF87388373D /* OPGJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGJSON.h; sourceTree = "<group>"; };
+		3BD75C4471AD1E8D438594C917E101F5 /* OPGConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGConnection.h; sourceTree = "<group>"; };
+		3CE7502E2A0EB5298ECA8B190AD2ED77 /* Pods_OPGFeedbackSDKLite_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OPGFeedbackSDKLite_Example.framework; path = "Pods-OPGFeedbackSDKLite_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE7C701A0DBFC10B360AAF0AB4C3D9A /* OPGPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGPlugin.h; sourceTree = "<group>"; };
+		3EFED1BAA4E0D3D762AE5196E36C384B /* OPGShared.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGShared.h; sourceTree = "<group>"; };
+		43942BF6F938F29335838B8019611F5E /* NSData+OPGBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+OPGBase64.h"; sourceTree = "<group>"; };
+		46D23E9729FCF32ECC5BB55E5958C01E /* OPGSurvey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGSurvey.h; path = include/OPGSDK/OPGSurvey.h; sourceTree = "<group>"; };
+		489A897120C7665630857ACC9363742E /* OPGFeedbackSDKLite.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = OPGFeedbackSDKLite.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		48FDC49E947383A028BEFF51CC51F1A0 /* OPGGeoFence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGGeoFence.h; path = include/OPGSDK/OPGGeoFence.h; sourceTree = "<group>"; };
+		498A7612707F5CD86667A00B49EC7012 /* OPGResourceBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = OPGResourceBundle.bundle; path = OPGFeedbackSDKLite/Assets/OPGResourceBundle.bundle; sourceTree = "<group>"; };
+		4B005C3A427D0C98891419EB2FAEB779 /* OPGTheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGTheme.h; path = include/OPGSDK/OPGTheme.h; sourceTree = "<group>"; };
+		4B2964AC9DCC62506201937688A62265 /* UIDevice+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extensions.h"; sourceTree = "<group>"; };
+		4DA0CA979D3FF683DFE0006C553FB3D2 /* OPGParseResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGParseResult.h; sourceTree = "<group>"; };
+		4E3CF89390FE474738D36F8F0C4467BF /* OPGLocalStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGLocalStorage.h; sourceTree = "<group>"; };
+		4EEDA53B11FDED7265D200FA684F24D4 /* Pods-OPGFeedbackSDKLite_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OPGFeedbackSDKLite_Example.modulemap"; sourceTree = "<group>"; };
+		5260E1ADBA0BC54CED8F178B68110844 /* OPGCommandQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCommandQueue.h; sourceTree = "<group>"; };
+		568FBBF594494C9724000E6F82DD4928 /* OPGHandleOpenURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGHandleOpenURL.h; sourceTree = "<group>"; };
+		59E04A5BF541FC2965750D34AC56219A /* NSObject+OPGSBJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+OPGSBJSON.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5CB54B1D41F95694CA5CEA5518E6BD5A /* PKMultipartInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PKMultipartInputStream.h; sourceTree = "<group>"; };
+		6047D10BC633D357943AF3123CF48EE7 /* OPGSBJsonParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGSBJsonParser.h; sourceTree = "<group>"; };
+		6159A75CC2C6CF3436EBC41D25F5D200 /* OPGWhitelist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGWhitelist.h; sourceTree = "<group>"; };
+		626243F617DC943EA3029979E13CA15D /* OPGSBJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGSBJSON.h; sourceTree = "<group>"; };
+		6416C76AFE5C21BA26705EF5B3D0689A /* OPGLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGLocation.h; sourceTree = "<group>"; };
+		65B2DCA323A548C8C215797BDB97459F /* OPGScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGScript.h; sourceTree = "<group>"; };
+		67AEA741B2C07E9E17CABFE01AF704CA /* OPGLocalFilesystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGLocalFilesystem.h; sourceTree = "<group>"; };
+		6B4661DA4904BFE2C2B26F3961DB40EE /* Pods-OPGFeedbackSDKLite_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OPGFeedbackSDKLite_Tests-dummy.m"; sourceTree = "<group>"; };
+		6BAABAAD24A3D817C7CFB47E13F188A6 /* OPGSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGSDK.h; path = include/OPGSDK/OPGSDK.h; sourceTree = "<group>"; };
+		6E560BAAEEE3D8F7F373FB1FAC6E1F71 /* OPG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPG.h; sourceTree = "<group>"; };
+		6F3D6C98E9240B3756C45FB14F4DA0A0 /* OPGTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGTimer.h; sourceTree = "<group>"; };
+		70F8526C91D78D01CCC4E584376A55C3 /* NSData+OPGAESCrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+OPGAESCrypt.h"; sourceTree = "<group>"; };
+		73FF24C395E0BE11F3138A507FBB1D89 /* OPGPanelPanellist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGPanelPanellist.h; path = include/OPGSDK/OPGPanelPanellist.h; sourceTree = "<group>"; };
+		807EDECF1DBAAE51EC49CD0ABB02389A /* OPGSurveyPanel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGSurveyPanel.h; path = include/OPGSDK/OPGSurveyPanel.h; sourceTree = "<group>"; };
+		87D4098455921CB8A4EDA8EF83321973 /* Pods-OPGFeedbackSDKLite_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OPGFeedbackSDKLite_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A523E4C60FE03111F405CDA386A6F2E /* OPGForgotPassword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGForgotPassword.h; path = include/OPGSDK/OPGForgotPassword.h; sourceTree = "<group>"; };
+		8E5A33AD8B6F98A8BABCED34FFC0402C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8EA5FD34151076B2079E19AF43D5F3FA /* OPGUserAgentUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGUserAgentUtil.h; sourceTree = "<group>"; };
+		8F66A287676357B6FB68CD6163473CB3 /* OPGURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGURLProtocol.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93BCDC827D55D46FCE492B5E06CCF108 /* OPGScreenOrientationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGScreenOrientationDelegate.h; sourceTree = "<group>"; };
+		95F7D82EA54099DFE27BFE9589339337 /* OPGConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGConstants.h; sourceTree = "<group>"; };
+		9DFFC535AFB5480D8DF94DCDFF2C5919 /* Pods-OPGFeedbackSDKLite_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OPGFeedbackSDKLite_Tests-Info.plist"; sourceTree = "<group>"; };
+		A0213023BA38D0D05CCBEBEF8DB814CB /* OPGImagePreviewPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGImagePreviewPlugin.h; sourceTree = "<group>"; };
+		A5F1B1C75DED773B1544C4869EDD6A81 /* Pods-OPGFeedbackSDKLite_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OPGFeedbackSDKLite_Example-resources.sh"; sourceTree = "<group>"; };
+		A82D52FFE18C24A53D01953DA0E2B70F /* UIImage+CropScaleOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropScaleOrientation.h"; sourceTree = "<group>"; };
+		A9D6979DDFBA3BDDDA7ACBCE054A5340 /* Pods-OPGFeedbackSDKLite_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OPGFeedbackSDKLite_Example-dummy.m"; sourceTree = "<group>"; };
+		AA667D91EFEC4196A7D7214C5D7E13E3 /* OPGReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGReachability.h; sourceTree = "<group>"; };
+		B01AD6C2D0D4C40F7062680577DBAAB5 /* OPGCommandDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCommandDelegate.h; sourceTree = "<group>"; };
+		B31188EDE6682A334945F86875B1245F /* OPGJpegHeaderWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGJpegHeaderWriter.h; sourceTree = "<group>"; };
+		B31547ABE8FDC76D15447FCEE5B75991 /* OPGFeedbackSDKLite.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = OPGFeedbackSDKLite.bundle; path = "OPGFeedbackSDKLite-OPGFeedbackSDKLite.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DDE9F4EBFCBFBDFCAF3B6D0F621968 /* OPGConfigParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGConfigParser.h; sourceTree = "<group>"; };
+		BE1DBFF2BC0371B324AE0DFA6A662769 /* NSDictionary+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extensions.h"; sourceTree = "<group>"; };
+		BE4D2DE7E0E7C3EA879DE109CC282D1D /* OPGSBJsonWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGSBJsonWriter.h; sourceTree = "<group>"; };
+		BF8DF266CF89A249BA2F4E4FA28E884E /* Pods-OPGFeedbackSDKLite_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OPGFeedbackSDKLite_Tests.modulemap"; sourceTree = "<group>"; };
+		C2974E195CE12E09EB5D7871CB496876 /* Pods-OPGFeedbackSDKLite_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OPGFeedbackSDKLite_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2C087C598D5FFC2D34FBE1598A16A9C /* OPGPluginResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGPluginResult.h; sourceTree = "<group>"; };
+		C39C04CF891026F956F2CF9EBDF7A6A1 /* ResourceBundle-OPGFeedbackSDKLite-OPGFeedbackSDKLite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OPGFeedbackSDKLite-OPGFeedbackSDKLite-Info.plist"; sourceTree = "<group>"; };
+		C6056EE73FA987BFA6040CE2C13A1F93 /* OpenSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OpenSettings.h; sourceTree = "<group>"; };
+		C6C13C7969E72290A678D4A584425361 /* OPGCryptoTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCryptoTransform.h; sourceTree = "<group>"; };
+		C84401C77737B621B99B3231167BCBCB /* OPGAvailabilityDeprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGAvailabilityDeprecated.h; sourceTree = "<group>"; };
+		C9734055669E4733A87B37F734B9568B /* OPGWebViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGWebViewDelegate.h; sourceTree = "<group>"; };
+		D2EEB0E1DA23D458506D12804C425162 /* OPGCommandDelegateImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCommandDelegateImpl.h; sourceTree = "<group>"; };
+		D3DB6AC82897398ED7704A09A2573AA5 /* OPGNReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGNReachability.h; sourceTree = "<group>"; };
+		D47F15991FAFF578C8244F47B10C7365 /* Pods-OPGFeedbackSDKLite_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OPGFeedbackSDKLite_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D6F0E704D963B71A5DFC028D5C25D014 /* Pods-OPGFeedbackSDKLite_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OPGFeedbackSDKLite_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DAAC3D471A56C0F6FE3B767B5D84D13F /* OPGGeofenceSurvey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGGeofenceSurvey.h; path = include/OPGSDK/OPGGeofenceSurvey.h; sourceTree = "<group>"; };
+		DB9013BF68B864794C65EA0A9A7C3930 /* Pods-OPGFeedbackSDKLite_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OPGFeedbackSDKLite_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB973C2ED8C7459B7440008EE7B049EF /* Pods_OPGFeedbackSDKLite_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OPGFeedbackSDKLite_Tests.framework; path = "Pods-OPGFeedbackSDKLite_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC052498FB4F5EC14398A6FAE5511669 /* OPGAssetLibraryFilesystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGAssetLibraryFilesystem.h; sourceTree = "<group>"; };
+		E274BA7DDABE96E04874489CC6EEFD4D /* OPGSBJsonBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGSBJsonBase.h; sourceTree = "<group>"; };
+		E4C6E2F7C91B7EA1F5297655987026A6 /* zxing-all-in-one.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zxing-all-in-one.h"; sourceTree = "<group>"; };
+		E631EFB9DE0D45E312BC7925EC90D504 /* Pods-OPGFeedbackSDKLite_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OPGFeedbackSDKLite_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E659F630678AD3C8F30BF0BA6AEF594F /* OPGDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGDevice.h; sourceTree = "<group>"; };
+		E8117104DA5C9E04089B71111DA11539 /* OPGJSON_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGJSON_private.h; sourceTree = "<group>"; };
+		E82FE831E128AC72C5F37AB382D0AC43 /* OPGAuthenticate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGAuthenticate.h; path = include/OPGSDK/OPGAuthenticate.h; sourceTree = "<group>"; };
+		E9F341EF3DD2B9A441DCF6B8ED0C9ADF /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		EB74AA30AD9ACFD6CF91413673CD9B9D /* OPGCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGCamera.h; sourceTree = "<group>"; };
+		EB893CCE81CED5E20AB8E2E91872E8E7 /* OPGChangePassword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGChangePassword.h; path = include/OPGSDK/OPGChangePassword.h; sourceTree = "<group>"; };
+		EE32C80CA779CFDD9F0ADE7E09B497D7 /* OPGFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGFile.h; sourceTree = "<group>"; };
+		F0797149312ABBF45086D3B3730D5B72 /* Pods-OPGFeedbackSDKLite_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OPGFeedbackSDKLite_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F0B40957AC56B462191C3A1B5353E055 /* OPGDownloadMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGDownloadMedia.h; path = include/OPGSDK/OPGDownloadMedia.h; sourceTree = "<group>"; };
+		F70D232ABC3E14B8E77F78B17F41722F /* Pods-OPGFeedbackSDKLite_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OPGFeedbackSDKLite_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F797DD2F4216D07A2739B07D131763AC /* OPGViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPGViewController.h; path = include/OPGSDK/OPGViewController.h; sourceTree = "<group>"; };
+		F7C3C5D472B1775723F9389DE0F7F965 /* OPGFeedbackSDKLite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OPGFeedbackSDKLite.xcconfig; sourceTree = "<group>"; };
+		F8C9A8852A8A8A6AA7467B5B401FF75A /* Pods-OPGFeedbackSDKLite_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OPGFeedbackSDKLite_Example-Info.plist"; sourceTree = "<group>"; };
+		FCA7449C4AD432F082FD9E00F6D23CC8 /* OPGLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGLogger.h; sourceTree = "<group>"; };
+		FDD443B3ED920D593E2CBA3C52EE64DB /* RootPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RootPlugin.h; sourceTree = "<group>"; };
+		FFE7FE07B28CBB79A6C9C56E2672E4DA /* OPGBaseController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPGBaseController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B5483197C399FD5CE43EB6EAE901880 /* Frameworks */ = {
+		5DEE2275CF8753CE5ABFB2A7CA100B61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE7A48FA16A873E5D546C9FCD7FE4DD1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C4B9B0CC2EBBC6DF6FE8A7F2AFD2273 /* Frameworks */ = {
+		92D9D6FCBF526CC5E9E27FED7CD0170F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3038AF021D99F01B1F05254D3F1376F9 /* Foundation.framework in Frameworks */,
+				6CEDA12761295F4E24E39DF4CADA2F76 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1306AC139816BA439636938F6689083 /* Frameworks */ = {
+		AA24DDD9BDAEE9AAC2B5FD4AD27C43F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF190BC8D8EB7ACD2AB3E5A216FFAF7E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B5ACDC743687670FD00B5D65B809696 /* Support Files */ = {
+		015FCA9A3C0F58C67C440ACBC4864D75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A1D40693C570954E130DF91E32B82925 /* ResourceBundle-OPGFeedbackSDKLite-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OPGFeedbackSDKLite";
-			sourceTree = "<group>";
-		};
-		1C961BCAC9317A7120250FF5E4DA70A2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9D66719B3AF38815ED0CAF11C06F450D /* libOnePointSDK.a */,
+				13EEEFEACDD01E20AB0138A93E0E4293 /* libOnePointSDK.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1FE87DFCBD81124F569A4D6DFD830162 /* Development Pods */ = {
+		018750247D196F112E3F70090FFDD2C5 /* Other Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8F11D6AD119FBE297CA9EB8053FD4BEE /* OPGFeedbackSDKLite */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		26267A1190AC06B18B631454F5BB7BEC /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7A78A8635D915774961F989AAB7E3171 /* Pods-OPGFeedbackSDKLite_Example */,
-				EE93AB677D07013DFF8DC5C04C3DE924 /* Pods-OPGFeedbackSDKLite_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		4AC04874AFA2A1BB2C69D1B828E403E7 /* Other Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E441986733E609705995B7A94858137E /* NSArray+Comparisons.h */,
-				95600B43622F6246B75B74A9EA38219D /* NSData+OPGAESCrypt.h */,
-				8BAC2963938C007306DFF217D3E76577 /* NSData+OPGBase64.h */,
-				57FB2581BDA17FB282389137D5619118 /* NSDictionary+Extensions.h */,
-				BE0E746B3568A9EAC43862788D143C97 /* NSMutableArray+QueueAdditions.h */,
-				439A0266C1689872A1E829803F35505C /* NSObject+OPGSBJSON.h */,
-				EC0D0FAD2B28EE8C5252905DF9C91B33 /* NSString+OPGAESCrypt.h */,
-				7744980BF978577EE5953EEEEB27F67A /* NSString+OPGMD5.h */,
-				F342C0C9B56AFDA4ACD87477632353C4 /* OpenSettings.h */,
-				941D7F99118DBAE392283EC852CE5D7F /* OPG.h */,
-				1BC4B4A505350264E8CA0F75B664007A /* OPGAssetLibraryFilesystem.h */,
-				5E7B294EC3D513D86398D7D903E208BE /* OPGAvailability.h */,
-				0F406EFF94E0B9E003E1ED5EF3F7E911 /* OPGAvailabilityDeprecated.h */,
-				0AAF6C9D1F1DC3F5A2F915F05A07492C /* OPGBaseController.h */,
-				5C90E73188D66FD8577B6843AE58CED0 /* OPGCamera.h */,
-				B51A6DF843F9C22DFDD88A3A97306FD2 /* OPGCapture.h */,
-				05670810180A818D7B97991EFC2C7A4E /* OPGCommandDelegate.h */,
-				C0EFA9EF0C1B8C4FB559F5D194B40945 /* OPGCommandDelegateImpl.h */,
-				78A398A6AC4E4820FC7C568D96A65E24 /* OPGCommandQueue.h */,
-				C0A72530AB04201C5430AAA096EC913E /* OPGConfigParser.h */,
-				971533DA60FD1CDD9282AB58C812ED06 /* OPGConnection.h */,
-				7B554C34BAD5F16F1025767EE2E15280 /* OPGConstants.h */,
-				ECA20B43FCAC7F32055D6404E958D62C /* OPGCryptoTransform.h */,
-				B85EB7D915D75AD6221AA0DD3EC74C78 /* OPGDebug.h */,
-				68E4167DA26F6645B8B3A5B5CA5CAFF3 /* OPGDevice.h */,
-				D505FD4F59AAC0943D1725D1B747EA92 /* OPGExif.h */,
-				0143C1B3613E72916C0A4CA96688C5A4 /* OPGFile.h */,
-				07CA7365618ED73F0C191A0A8F8DB3AC /* OPGHandleOpenURL.h */,
-				6958906CFE1D11E64E2D9421394EEAF8 /* OPGImagePreviewPlugin.h */,
-				547E3D5D4EDE9EBAF98B1962BAEACF1F /* OPGInvokedUrlCommand.h */,
-				816A38731C7A3FBE34EB052A3EFBFC4D /* OPGJpegHeaderWriter.h */,
-				1B070369214325B402CBFE405108EEBD /* OPGJSON.h */,
-				C118CA267EF032F645C89D30783DEDCC /* OPGJSON_private.h */,
-				FDD552C85284486386D341F8F540CFFB /* OPGLocalFilesystem.h */,
-				43A59A68802C95ECC0FB20BFBF310319 /* OPGLocalStorage.h */,
-				7791A503F7A907B052B42CCC98191E5C /* OPGLocation.h */,
-				B193D4F987463339B4F35B7BD6D4EA3A /* OPGLogger.h */,
-				464D3E08769581FC699820BD1CB730B3 /* OPGMediaPickerAndPreviewPlugin.h */,
-				387A5B910A28876C13E2AF5F96750840 /* OPGMediaPlugin.h */,
-				3D655E4ECF5A14A280B8F1B2BE72D745 /* OPGNetworkRequest.h */,
-				2F9F54DDE0BFD260E7A2192053F387B4 /* OPGNReachability.h */,
-				ED986D98088D066652E1EDD0274A6B10 /* OPGParseResult.h */,
-				B2B58DBF7D4DB57F61866DE8CDF35155 /* OPGPlugin.h */,
-				0166FAAABA257E4257645E96ABE93D3F /* OPGPluginResult.h */,
-				FF8AA1E4AC44FDB3C99E3F6355FDF66C /* OPGReachability.h */,
-				EE9531A00596F2A02BBE982E30D00804 /* OPGRequest.h */,
-				2D6F9E2CD8D5EF4871E70AD06BC477BC /* OPGSBJSON.h */,
-				526D40FC7ECC22737F59753EC210479E /* OPGSBJsonBase.h */,
-				9D889ECFFEE0DE7A744224B23EF19D77 /* OPGSBJsonParser.h */,
-				381BE52CF6D71B65BEB064E08C1B99C0 /* OPGSBJsonWriter.h */,
-				4246F868A7E6798593FEC6E6844CB0FD /* OPGScreenOrientationDelegate.h */,
-				5E3A3644C86DF2588554B3E8238BA429 /* OPGScript.h */,
-				FD9D5691B13CF19E9075BCF9E269D113 /* OPGShared.h */,
-				E17766CFA40617EE30068139FD9C3962 /* OPGTimer.h */,
-				54E234C5ADE60EB1F488AE382460F48C /* OPGURLProtocol.h */,
-				074DD1BCE84FA65D59A7744B33114C16 /* OPGUserAgentUtil.h */,
-				90CFEAB54DB92E60F65A5E88122BAEAF /* OPGWebViewDelegate.h */,
-				6643B4A4D74EBA8803D35154F031A562 /* OPGWhitelist.h */,
-				3842F9CB8BA3564E38FF8778B9B5332F /* PKMultipartInputStream.h */,
-				DA8C7592BBC93041460DE13D55296A8A /* RootPlugin.h */,
-				1F7EDC26F2C4D372AA7FEDF65941FB4C /* UIDevice+Extensions.h */,
-				0FF9D851629E86FB2602142863496155 /* UIImage+CropScaleOrientation.h */,
-				0D747D985B59631E577063ABBFA63BE1 /* zxing-all-in-one.h */,
+				149095CB4C951990015B77028F6848F3 /* NSArray+Comparisons.h */,
+				70F8526C91D78D01CCC4E584376A55C3 /* NSData+OPGAESCrypt.h */,
+				43942BF6F938F29335838B8019611F5E /* NSData+OPGBase64.h */,
+				BE1DBFF2BC0371B324AE0DFA6A662769 /* NSDictionary+Extensions.h */,
+				E9F341EF3DD2B9A441DCF6B8ED0C9ADF /* NSMutableArray+QueueAdditions.h */,
+				59E04A5BF541FC2965750D34AC56219A /* NSObject+OPGSBJSON.h */,
+				0603AFCBEF5867DC08EA78653A41834E /* NSString+OPGAESCrypt.h */,
+				08D2CD645C7CE1B578DC807927879FE3 /* NSString+OPGMD5.h */,
+				C6056EE73FA987BFA6040CE2C13A1F93 /* OpenSettings.h */,
+				6E560BAAEEE3D8F7F373FB1FAC6E1F71 /* OPG.h */,
+				DC052498FB4F5EC14398A6FAE5511669 /* OPGAssetLibraryFilesystem.h */,
+				1432B32DA6AF131DE606AF4CB9B98809 /* OPGAvailability.h */,
+				C84401C77737B621B99B3231167BCBCB /* OPGAvailabilityDeprecated.h */,
+				FFE7FE07B28CBB79A6C9C56E2672E4DA /* OPGBaseController.h */,
+				EB74AA30AD9ACFD6CF91413673CD9B9D /* OPGCamera.h */,
+				1DA35F7AC39F34DA1038D05BF3AFE4BA /* OPGCapture.h */,
+				B01AD6C2D0D4C40F7062680577DBAAB5 /* OPGCommandDelegate.h */,
+				D2EEB0E1DA23D458506D12804C425162 /* OPGCommandDelegateImpl.h */,
+				5260E1ADBA0BC54CED8F178B68110844 /* OPGCommandQueue.h */,
+				B9DDE9F4EBFCBFBDFCAF3B6D0F621968 /* OPGConfigParser.h */,
+				3BD75C4471AD1E8D438594C917E101F5 /* OPGConnection.h */,
+				95F7D82EA54099DFE27BFE9589339337 /* OPGConstants.h */,
+				C6C13C7969E72290A678D4A584425361 /* OPGCryptoTransform.h */,
+				1704FFFE34D1060701AEAA64FA3AA52F /* OPGDebug.h */,
+				E659F630678AD3C8F30BF0BA6AEF594F /* OPGDevice.h */,
+				3194919B76B076F59055C9FD2CF9D5F4 /* OPGExif.h */,
+				EE32C80CA779CFDD9F0ADE7E09B497D7 /* OPGFile.h */,
+				568FBBF594494C9724000E6F82DD4928 /* OPGHandleOpenURL.h */,
+				A0213023BA38D0D05CCBEBEF8DB814CB /* OPGImagePreviewPlugin.h */,
+				2B4C0752AD075872C3880B676A797D9C /* OPGInvokedUrlCommand.h */,
+				B31188EDE6682A334945F86875B1245F /* OPGJpegHeaderWriter.h */,
+				3A0F9707B6CF6EF851A3EBF87388373D /* OPGJSON.h */,
+				E8117104DA5C9E04089B71111DA11539 /* OPGJSON_private.h */,
+				67AEA741B2C07E9E17CABFE01AF704CA /* OPGLocalFilesystem.h */,
+				4E3CF89390FE474738D36F8F0C4467BF /* OPGLocalStorage.h */,
+				6416C76AFE5C21BA26705EF5B3D0689A /* OPGLocation.h */,
+				FCA7449C4AD432F082FD9E00F6D23CC8 /* OPGLogger.h */,
+				2642261A48595B75580CEDCC658BF622 /* OPGMediaPickerAndPreviewPlugin.h */,
+				2A2FFC0FEE541146ACAAD923195CB71A /* OPGMediaPlugin.h */,
+				2D96500CDEFBD0CE6AE2A99B6B30AD5A /* OPGNetworkRequest.h */,
+				D3DB6AC82897398ED7704A09A2573AA5 /* OPGNReachability.h */,
+				4DA0CA979D3FF683DFE0006C553FB3D2 /* OPGParseResult.h */,
+				3EE7C701A0DBFC10B360AAF0AB4C3D9A /* OPGPlugin.h */,
+				C2C087C598D5FFC2D34FBE1598A16A9C /* OPGPluginResult.h */,
+				AA667D91EFEC4196A7D7214C5D7E13E3 /* OPGReachability.h */,
+				263A5222EF342B86799632DADC62D565 /* OPGRequest.h */,
+				626243F617DC943EA3029979E13CA15D /* OPGSBJSON.h */,
+				E274BA7DDABE96E04874489CC6EEFD4D /* OPGSBJsonBase.h */,
+				6047D10BC633D357943AF3123CF48EE7 /* OPGSBJsonParser.h */,
+				BE4D2DE7E0E7C3EA879DE109CC282D1D /* OPGSBJsonWriter.h */,
+				93BCDC827D55D46FCE492B5E06CCF108 /* OPGScreenOrientationDelegate.h */,
+				65B2DCA323A548C8C215797BDB97459F /* OPGScript.h */,
+				3EFED1BAA4E0D3D762AE5196E36C384B /* OPGShared.h */,
+				6F3D6C98E9240B3756C45FB14F4DA0A0 /* OPGTimer.h */,
+				8F66A287676357B6FB68CD6163473CB3 /* OPGURLProtocol.h */,
+				8EA5FD34151076B2079E19AF43D5F3FA /* OPGUserAgentUtil.h */,
+				C9734055669E4733A87B37F734B9568B /* OPGWebViewDelegate.h */,
+				6159A75CC2C6CF3436EBC41D25F5D200 /* OPGWhitelist.h */,
+				5CB54B1D41F95694CA5CEA5518E6BD5A /* PKMultipartInputStream.h */,
+				FDD443B3ED920D593E2CBA3C52EE64DB /* RootPlugin.h */,
+				4B2964AC9DCC62506201937688A62265 /* UIDevice+Extensions.h */,
+				A82D52FFE18C24A53D01953DA0E2B70F /* UIImage+CropScaleOrientation.h */,
+				E4C6E2F7C91B7EA1F5297655987026A6 /* zxing-all-in-one.h */,
 			);
 			name = "Other Supporting Files";
 			path = "include/OPGSDK/Other Supporting Files";
 			sourceTree = "<group>";
 		};
-		7A78A8635D915774961F989AAB7E3171 /* Pods-OPGFeedbackSDKLite_Example */ = {
+		1354BD2964266197F48904CD2BC556F1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7A4611B079A5D16431FF95F107944699 /* Info.plist */,
-				FB74F7D56818F0A58E82CA2BCEECCF0F /* Pods-OPGFeedbackSDKLite_Example.modulemap */,
-				73EAE4B29439F00509789A139408CB43 /* Pods-OPGFeedbackSDKLite_Example-acknowledgements.markdown */,
-				0EB7394063BB938172FDABDF1DF64CF5 /* Pods-OPGFeedbackSDKLite_Example-acknowledgements.plist */,
-				878811EEE7F923CEE6F718271BE56F24 /* Pods-OPGFeedbackSDKLite_Example-dummy.m */,
-				DD626F1F2842190A862C05F5F426C059 /* Pods-OPGFeedbackSDKLite_Example-frameworks.sh */,
-				819A8E230E42DB41E4AAD5D8EAACB308 /* Pods-OPGFeedbackSDKLite_Example-resources.sh */,
-				3D7BCDC96F47A24649EE7AFE0A24038A /* Pods-OPGFeedbackSDKLite_Example-umbrella.h */,
-				52918BC463B00E019D949E5F2DD11DFB /* Pods-OPGFeedbackSDKLite_Example.debug.xcconfig */,
-				40D2C0B93B2A9F6E160CA3C62F966A97 /* Pods-OPGFeedbackSDKLite_Example.release.xcconfig */,
+				A40D28B582B46EA42A380F26C7991B58 /* Pods-OPGFeedbackSDKLite_Example */,
+				B49A1ADD2E35897B4310E14AA3E68FE9 /* Pods-OPGFeedbackSDKLite_Tests */,
 			);
-			name = "Pods-OPGFeedbackSDKLite_Example";
-			path = "Target Support Files/Pods-OPGFeedbackSDKLite_Example";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1FE87DFCBD81124F569A4D6DFD830162 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A7A71E7683F173DCB9860DB3E04C9F9 /* OPGFeedbackSDKLite */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3A7A71E7683F173DCB9860DB3E04C9F9 /* OPGFeedbackSDKLite */ = {
+			isa = PBXGroup;
+			children = (
+				E82FE831E128AC72C5F37AB382D0AC43 /* OPGAuthenticate.h */,
+				EB893CCE81CED5E20AB8E2E91872E8E7 /* OPGChangePassword.h */,
+				19D4E390965C014242E5AE52271B6252 /* OPGCountry.h */,
+				F0B40957AC56B462191C3A1B5353E055 /* OPGDownloadMedia.h */,
+				8A523E4C60FE03111F405CDA386A6F2E /* OPGForgotPassword.h */,
+				48FDC49E947383A028BEFF51CC51F1A0 /* OPGGeoFence.h */,
+				DAAC3D471A56C0F6FE3B767B5D84D13F /* OPGGeofenceSurvey.h */,
+				0E75AFACD9CB8F2F7E64A6393B78BA98 /* OPGPanel.h */,
+				0BE76518262F6EB6A2C28A345DC13C17 /* OPGPanellistPanel.h */,
+				262083A782B50245772677D7531CF8B6 /* OPGPanellistProfile.h */,
+				73FF24C395E0BE11F3138A507FBB1D89 /* OPGPanelPanellist.h */,
+				6BAABAAD24A3D817C7CFB47E13F188A6 /* OPGSDK.h */,
+				46D23E9729FCF32ECC5BB55E5958C01E /* OPGSurvey.h */,
+				807EDECF1DBAAE51EC49CD0ABB02389A /* OPGSurveyPanel.h */,
+				4B005C3A427D0C98891419EB2FAEB779 /* OPGTheme.h */,
+				F797DD2F4216D07A2739B07D131763AC /* OPGViewController.h */,
+				015FCA9A3C0F58C67C440ACBC4864D75 /* Frameworks */,
+				018750247D196F112E3F70090FFDD2C5 /* Other Supporting Files */,
+				94471495A81986C709A72D0A02451223 /* Pod */,
+				4F66BB95C2E0BD21443534974ECDED65 /* Resources */,
+				96B5E47FEF69D5951E5B78C6C2E03360 /* Support Files */,
+			);
+			name = OPGFeedbackSDKLite;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4F66BB95C2E0BD21443534974ECDED65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				498A7612707F5CD86667A00B49EC7012 /* OPGResourceBundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -303,89 +339,69 @@
 				1FE87DFCBD81124F569A4D6DFD830162 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				F4D2A99B7140E5B4A177751EA43838A9 /* Products */,
-				26267A1190AC06B18B631454F5BB7BEC /* Targets Support Files */,
+				1354BD2964266197F48904CD2BC556F1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8F11D6AD119FBE297CA9EB8053FD4BEE /* OPGFeedbackSDKLite */ = {
+		94471495A81986C709A72D0A02451223 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				313A688DF93CE18680E3F484E40DBA50 /* OPGAuthenticate.h */,
-				953BBDE36CC0E6018158AA1654037A79 /* OPGChangePassword.h */,
-				631AE8AA357E36FF13210B1902ACBB3B /* OPGCountry.h */,
-				A356460FC4A528C516B398DB273C00DF /* OPGDownloadMedia.h */,
-				182A9D65D3EC0527D0F8F1B1FB2F723F /* OPGForgotPassword.h */,
-				96DABB99FD744B465EA67E374429ACEC /* OPGGeoFence.h */,
-				9492A339CFB5603D01C1EF008B9D63F9 /* OPGGeofenceSurvey.h */,
-				7E10CDB21C9874E1243E5F4B438B03EB /* OPGPanel.h */,
-				71D1E55A78214BF2434E2DBB72CCE089 /* OPGPanellistPanel.h */,
-				C44A8B3924A733E55622764B00BA890C /* OPGPanellistProfile.h */,
-				5000B340F553B2D4049D916374982E70 /* OPGPanelPanellist.h */,
-				04C1B91671F3D22E89FE7217E797977C /* OPGSDK.h */,
-				F286513448C2AA4504F58355BC326596 /* OPGSurvey.h */,
-				0D9857E71064D5CFE8D67BAE9AD7F2C9 /* OPGSurveyPanel.h */,
-				8ACC1539294F4F536D09D46A49BE8B62 /* OPGTheme.h */,
-				64709C5024EEBB2F0034AAF7A3E894DC /* OPGViewController.h */,
-				1C961BCAC9317A7120250FF5E4DA70A2 /* Frameworks */,
-				4AC04874AFA2A1BB2C69D1B828E403E7 /* Other Supporting Files */,
-				99202FEDA97B582155BEF2C1B4B6ACFD /* Pod */,
-				C3BE46CEA3D05C9118FB2F5271ACB285 /* Resources */,
-				0B5ACDC743687670FD00B5D65B809696 /* Support Files */,
-			);
-			name = OPGFeedbackSDKLite;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		99202FEDA97B582155BEF2C1B4B6ACFD /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				95550F2516B4BCCD27262E7588DCFC57 /* LICENSE */,
-				1E72A694DB8B8E2160E5CFA98F340A62 /* OPGFeedbackSDKLite.podspec */,
-				3AD9378F23C66D225556996F79732685 /* README.md */,
+				8E5A33AD8B6F98A8BABCED34FFC0402C /* LICENSE */,
+				489A897120C7665630857ACC9363742E /* OPGFeedbackSDKLite.podspec */,
+				30568C9B9CC58755B53E5F54D611CF0E /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		96B5E47FEF69D5951E5B78C6C2E03360 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7C3C5D472B1775723F9389DE0F7F965 /* OPGFeedbackSDKLite.xcconfig */,
+				C39C04CF891026F956F2CF9EBDF7A6A1 /* ResourceBundle-OPGFeedbackSDKLite-OPGFeedbackSDKLite-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OPGFeedbackSDKLite";
+			sourceTree = "<group>";
+		};
+		A40D28B582B46EA42A380F26C7991B58 /* Pods-OPGFeedbackSDKLite_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4EEDA53B11FDED7265D200FA684F24D4 /* Pods-OPGFeedbackSDKLite_Example.modulemap */,
+				C2974E195CE12E09EB5D7871CB496876 /* Pods-OPGFeedbackSDKLite_Example-acknowledgements.markdown */,
+				DB9013BF68B864794C65EA0A9A7C3930 /* Pods-OPGFeedbackSDKLite_Example-acknowledgements.plist */,
+				A9D6979DDFBA3BDDDA7ACBCE054A5340 /* Pods-OPGFeedbackSDKLite_Example-dummy.m */,
+				F8C9A8852A8A8A6AA7467B5B401FF75A /* Pods-OPGFeedbackSDKLite_Example-Info.plist */,
+				A5F1B1C75DED773B1544C4869EDD6A81 /* Pods-OPGFeedbackSDKLite_Example-resources.sh */,
+				1FDCE239B3695DCE66BE90B9A3E05B41 /* Pods-OPGFeedbackSDKLite_Example-umbrella.h */,
+				E631EFB9DE0D45E312BC7925EC90D504 /* Pods-OPGFeedbackSDKLite_Example.debug.xcconfig */,
+				F70D232ABC3E14B8E77F78B17F41722F /* Pods-OPGFeedbackSDKLite_Example.release.xcconfig */,
+			);
+			name = "Pods-OPGFeedbackSDKLite_Example";
+			path = "Target Support Files/Pods-OPGFeedbackSDKLite_Example";
+			sourceTree = "<group>";
+		};
+		B49A1ADD2E35897B4310E14AA3E68FE9 /* Pods-OPGFeedbackSDKLite_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BF8DF266CF89A249BA2F4E4FA28E884E /* Pods-OPGFeedbackSDKLite_Tests.modulemap */,
+				87D4098455921CB8A4EDA8EF83321973 /* Pods-OPGFeedbackSDKLite_Tests-acknowledgements.markdown */,
+				D6F0E704D963B71A5DFC028D5C25D014 /* Pods-OPGFeedbackSDKLite_Tests-acknowledgements.plist */,
+				6B4661DA4904BFE2C2B26F3961DB40EE /* Pods-OPGFeedbackSDKLite_Tests-dummy.m */,
+				9DFFC535AFB5480D8DF94DCDFF2C5919 /* Pods-OPGFeedbackSDKLite_Tests-Info.plist */,
+				D47F15991FAFF578C8244F47B10C7365 /* Pods-OPGFeedbackSDKLite_Tests-umbrella.h */,
+				132AF376AAEBAB9E865F409850849391 /* Pods-OPGFeedbackSDKLite_Tests.debug.xcconfig */,
+				F0797149312ABBF45086D3B3730D5B72 /* Pods-OPGFeedbackSDKLite_Tests.release.xcconfig */,
+			);
+			name = "Pods-OPGFeedbackSDKLite_Tests";
+			path = "Target Support Files/Pods-OPGFeedbackSDKLite_Tests";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C3BE46CEA3D05C9118FB2F5271ACB285 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				36AF99FDE4EFED9D14FB327D1EC721AE /* OPGResourceBundle.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		EE93AB677D07013DFF8DC5C04C3DE924 /* Pods-OPGFeedbackSDKLite_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				99A31F0B55CD50BDE500D51AAC662D0F /* Info.plist */,
-				24900155773B8E59D2F6B3B038D7883F /* Pods-OPGFeedbackSDKLite_Tests.modulemap */,
-				140EB485FD09ACFF1DEF0CD3FB267872 /* Pods-OPGFeedbackSDKLite_Tests-acknowledgements.markdown */,
-				2BE9F084225184BD79044BCD87A8D541 /* Pods-OPGFeedbackSDKLite_Tests-acknowledgements.plist */,
-				176BD9FDB228FD5080301615E9BEA549 /* Pods-OPGFeedbackSDKLite_Tests-dummy.m */,
-				B834244F30A8EB420ED377ECC51F1B0C /* Pods-OPGFeedbackSDKLite_Tests-frameworks.sh */,
-				AB1858FAEA18DD47F678028B130623EF /* Pods-OPGFeedbackSDKLite_Tests-resources.sh */,
-				4D300EE919BCA594339DD0C74D4553DC /* Pods-OPGFeedbackSDKLite_Tests-umbrella.h */,
-				31159C52A5957DE504B8760A7C42F589 /* Pods-OPGFeedbackSDKLite_Tests.debug.xcconfig */,
-				EBE11646852F8571D24E4EB77CB1E5AD /* Pods-OPGFeedbackSDKLite_Tests.release.xcconfig */,
-			);
-			name = "Pods-OPGFeedbackSDKLite_Tests";
-			path = "Target Support Files/Pods-OPGFeedbackSDKLite_Tests";
 			sourceTree = "<group>";
 		};
 		F4D2A99B7140E5B4A177751EA43838A9 /* Products */ = {
@@ -401,50 +417,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C0A544CB9C49D8079F801A4E057C67D2 /* Headers */ = {
+		12BD156436018204ED22C41A8EF0ABB5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4896605D4AE53A125C31A3C5897C62FF /* Pods-OPGFeedbackSDKLite_Tests-umbrella.h in Headers */,
+				034A1D391F4DA73709DA8882A0C090E1 /* Pods-OPGFeedbackSDKLite_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F71FD966930F3E0FE2BEDBC54B88D954 /* Headers */ = {
+		222C6FCA62571A1EE924A2652F9900FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CF4D2E9C219CA41CE7294F3490D9FD3 /* Pods-OPGFeedbackSDKLite_Example-umbrella.h in Headers */,
+				2196420402DB6839B54DF024D34D7A06 /* Pods-OPGFeedbackSDKLite_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		46ABC2BBAE4065D3E8135EFE05A9003F /* Pods-OPGFeedbackSDKLite_Tests */ = {
+		2015A081230C660451FBBB2E3E74B10E /* OPGFeedbackSDKLite-OPGFeedbackSDKLite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD857BFA93E711ECD4BD17B24348E784 /* Build configuration list for PBXNativeTarget "Pods-OPGFeedbackSDKLite_Tests" */;
+			buildConfigurationList = 75C8CC6FBC5C82E86844E30CAD71CAA8 /* Build configuration list for PBXNativeTarget "OPGFeedbackSDKLite-OPGFeedbackSDKLite" */;
 			buildPhases = (
-				5B729415A81FB74022684AEDAA7DDD8A /* Sources */,
-				6C4B9B0CC2EBBC6DF6FE8A7F2AFD2273 /* Frameworks */,
-				C0A544CB9C49D8079F801A4E057C67D2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				063BA5631D85263518A90231C180A193 /* PBXTargetDependency */,
-			);
-			name = "Pods-OPGFeedbackSDKLite_Tests";
-			productName = "Pods-OPGFeedbackSDKLite_Tests";
-			productReference = DB973C2ED8C7459B7440008EE7B049EF /* Pods_OPGFeedbackSDKLite_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E15B2E99FCF78C012FBB18FD90A435F2 /* OPGFeedbackSDKLite-OPGFeedbackSDKLite */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A83A079AB43FECF1D37DE64017793E47 /* Build configuration list for PBXNativeTarget "OPGFeedbackSDKLite-OPGFeedbackSDKLite" */;
-			buildPhases = (
-				229CB5D02C241EBE5392992C91A7E9F8 /* Sources */,
-				E1306AC139816BA439636938F6689083 /* Frameworks */,
-				1ADEA3EA0D8FC23961479B695032ECC8 /* Resources */,
+				4BB86EBA756410C8415CF548B206D5E4 /* Sources */,
+				5DEE2275CF8753CE5ABFB2A7CA100B61 /* Frameworks */,
+				79A381D4F8FDC92028BE1298B8578E3E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -455,18 +453,38 @@
 			productReference = B31547ABE8FDC76D15447FCEE5B75991 /* OPGFeedbackSDKLite.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		E8736C85EB9F82F5071BF7F8BEA522F7 /* Pods-OPGFeedbackSDKLite_Example */ = {
+		78A04BB737640AAE9783AEF63F82B406 /* Pods-OPGFeedbackSDKLite_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 227C6D5C2326105C216846566D77839A /* Build configuration list for PBXNativeTarget "Pods-OPGFeedbackSDKLite_Example" */;
+			buildConfigurationList = B3F2EFC0EB6DA3DD79F01A35EFCDB30A /* Build configuration list for PBXNativeTarget "Pods-OPGFeedbackSDKLite_Tests" */;
 			buildPhases = (
-				D8643052C552DF40E9A4A16807496E9B /* Sources */,
-				2B5483197C399FD5CE43EB6EAE901880 /* Frameworks */,
-				F71FD966930F3E0FE2BEDBC54B88D954 /* Headers */,
+				12BD156436018204ED22C41A8EF0ABB5 /* Headers */,
+				BB16BD10EB204FD606A5EED85C996A48 /* Sources */,
+				92D9D6FCBF526CC5E9E27FED7CD0170F /* Frameworks */,
+				ED6B4D0D768D8132AE803A25DF3B43CB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				38417BCC0D8FC10B1F2EDBC4B1ACAA4F /* PBXTargetDependency */,
+				1AB7BDB9303915B0B92AF2F36C7824D4 /* PBXTargetDependency */,
+			);
+			name = "Pods-OPGFeedbackSDKLite_Tests";
+			productName = "Pods-OPGFeedbackSDKLite_Tests";
+			productReference = DB973C2ED8C7459B7440008EE7B049EF /* Pods_OPGFeedbackSDKLite_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5415A3D7BF3A143E133813918FF9C15 /* Pods-OPGFeedbackSDKLite_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B760248736C70C190A2212008934E37B /* Build configuration list for PBXNativeTarget "Pods-OPGFeedbackSDKLite_Example" */;
+			buildPhases = (
+				222C6FCA62571A1EE924A2652F9900FF /* Headers */,
+				0D3F598A890A286A29CA535B55C74B1A /* Sources */,
+				AA24DDD9BDAEE9AAC2B5FD4AD27C43F2 /* Frameworks */,
+				CCE0F668FC1B09A8EA2AD5A17181ECDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5A955945CC2F235E9D593CD67C8D6F0 /* PBXTargetDependency */,
 			);
 			name = "Pods-OPGFeedbackSDKLite_Example";
 			productName = "Pods-OPGFeedbackSDKLite_Example";
@@ -480,7 +498,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -494,67 +512,306 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E15B2E99FCF78C012FBB18FD90A435F2 /* OPGFeedbackSDKLite-OPGFeedbackSDKLite */,
-				E8736C85EB9F82F5071BF7F8BEA522F7 /* Pods-OPGFeedbackSDKLite_Example */,
-				46ABC2BBAE4065D3E8135EFE05A9003F /* Pods-OPGFeedbackSDKLite_Tests */,
+				ADC3FE906D83EB415EF4A2738968EEC3 /* OPGFeedbackSDKLite */,
+				2015A081230C660451FBBB2E3E74B10E /* OPGFeedbackSDKLite-OPGFeedbackSDKLite */,
+				B5415A3D7BF3A143E133813918FF9C15 /* Pods-OPGFeedbackSDKLite_Example */,
+				78A04BB737640AAE9783AEF63F82B406 /* Pods-OPGFeedbackSDKLite_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1ADEA3EA0D8FC23961479B695032ECC8 /* Resources */ = {
+		79A381D4F8FDC92028BE1298B8578E3E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				379AC0804888BEA91B4B251D7341B098 /* OPGResourceBundle.bundle in Resources */,
+				9D83E5CF3753579AF66DAE66BDEF6783 /* OPGResourceBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE0F668FC1B09A8EA2AD5A17181ECDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6B4D0D768D8132AE803A25DF3B43CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		229CB5D02C241EBE5392992C91A7E9F8 /* Sources */ = {
+		0D3F598A890A286A29CA535B55C74B1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8E9299D9919BD52A22BAAFC9B71B35 /* Pods-OPGFeedbackSDKLite_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB86EBA756410C8415CF548B206D5E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B729415A81FB74022684AEDAA7DDD8A /* Sources */ = {
+		BB16BD10EB204FD606A5EED85C996A48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33A9A781A1058A541C7323D53EB19969 /* Pods-OPGFeedbackSDKLite_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8643052C552DF40E9A4A16807496E9B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				33E780E3688F63EC74C9BC8267399FB7 /* Pods-OPGFeedbackSDKLite_Example-dummy.m in Sources */,
+				6A42CDE6DAE30147C0C9683E70EB8FC5 /* Pods-OPGFeedbackSDKLite_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		063BA5631D85263518A90231C180A193 /* PBXTargetDependency */ = {
+		1AB7BDB9303915B0B92AF2F36C7824D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-OPGFeedbackSDKLite_Example";
-			target = E8736C85EB9F82F5071BF7F8BEA522F7 /* Pods-OPGFeedbackSDKLite_Example */;
-			targetProxy = 531C7645E845DA5243FCD23B4D7BE487 /* PBXContainerItemProxy */;
+			target = B5415A3D7BF3A143E133813918FF9C15 /* Pods-OPGFeedbackSDKLite_Example */;
+			targetProxy = 2FBCFA6B42157001AD8C33BBDBE46552 /* PBXContainerItemProxy */;
 		};
-		38417BCC0D8FC10B1F2EDBC4B1ACAA4F /* PBXTargetDependency */ = {
+		3235B5358B075CD405F945E8BF6D5335 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "OPGFeedbackSDKLite-OPGFeedbackSDKLite";
-			target = E15B2E99FCF78C012FBB18FD90A435F2 /* OPGFeedbackSDKLite-OPGFeedbackSDKLite */;
-			targetProxy = E7F82D23FBC70BAF7762DBFC2DED56C7 /* PBXContainerItemProxy */;
+			target = 2015A081230C660451FBBB2E3E74B10E /* OPGFeedbackSDKLite-OPGFeedbackSDKLite */;
+			targetProxy = 6C89AD41A63A0692FD86E5147351C923 /* PBXContainerItemProxy */;
+		};
+		A5A955945CC2F235E9D593CD67C8D6F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OPGFeedbackSDKLite;
+			target = ADC3FE906D83EB415EF4A2738968EEC3 /* OPGFeedbackSDKLite */;
+			targetProxy = 02A5C582A59EED01A2CCC93D846F4D87 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+		12A50EB466F07CFC811F069658415F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C3C5D472B1775723F9389DE0F7F965 /* OPGFeedbackSDKLite.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OPGFeedbackSDKLite";
+				INFOPLIST_FILE = "Target Support Files/OPGFeedbackSDKLite/ResourceBundle-OPGFeedbackSDKLite-OPGFeedbackSDKLite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = OPGFeedbackSDKLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3347A2A3575B702000488617E1420795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C3C5D472B1775723F9389DE0F7F965 /* OPGFeedbackSDKLite.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FDDE4E5A9A7215D5C65E296EE67321F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E631EFB9DE0D45E312BC7925EC90D504 /* Pods-OPGFeedbackSDKLite_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OPGFeedbackSDKLite_Example/Pods-OPGFeedbackSDKLite_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OPGFeedbackSDKLite_Example/Pods-OPGFeedbackSDKLite_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		400207E69B35073F2E023BCAD792422E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 132AF376AAEBAB9E865F409850849391 /* Pods-OPGFeedbackSDKLite_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OPGFeedbackSDKLite_Tests/Pods-OPGFeedbackSDKLite_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OPGFeedbackSDKLite_Tests/Pods-OPGFeedbackSDKLite_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		772254A083EAB77BE4C5668C1F0D5176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C3C5D472B1775723F9389DE0F7F965 /* OPGFeedbackSDKLite.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A188D3512F36B30342E62D4FFD2B661A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C3C5D472B1775723F9389DE0F7F965 /* OPGFeedbackSDKLite.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OPGFeedbackSDKLite";
+				INFOPLIST_FILE = "Target Support Files/OPGFeedbackSDKLite/ResourceBundle-OPGFeedbackSDKLite-OPGFeedbackSDKLite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = OPGFeedbackSDKLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CC232A70E2846BA84AED4D113D2594E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70D232ABC3E14B8E77F78B17F41722F /* Pods-OPGFeedbackSDKLite_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OPGFeedbackSDKLite_Example/Pods-OPGFeedbackSDKLite_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OPGFeedbackSDKLite_Example/Pods-OPGFeedbackSDKLite_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -608,7 +865,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -617,9 +875,9 @@
 			};
 			name = Debug;
 		};
-		2700E92F8E6FA37BB833D943FA09EAB0 /* Release */ = {
+		D7AD6E5B41A64D48E33EA7F3903DDF47 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40D2C0B93B2A9F6E160CA3C62F966A97 /* Pods-OPGFeedbackSDKLite_Example.release.xcconfig */;
+			baseConfigurationReference = F0797149312ABBF45086D3B3730D5B72 /* Pods-OPGFeedbackSDKLite_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -631,139 +889,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OPGFeedbackSDKLite_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OPGFeedbackSDKLite_Example/Pods-OPGFeedbackSDKLite_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3306CC880D0906B830D5B57A93DBB85D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31159C52A5957DE504B8760A7C42F589 /* Pods-OPGFeedbackSDKLite_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OPGFeedbackSDKLite_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OPGFeedbackSDKLite_Tests/Pods-OPGFeedbackSDKLite_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		371DB4E18BEBE15A8FC79061E43C4AF8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OPGFeedbackSDKLite";
-				INFOPLIST_FILE = "Target Support Files/OPGFeedbackSDKLite/ResourceBundle-OPGFeedbackSDKLite-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
-				PRODUCT_NAME = OPGFeedbackSDKLite;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		5E95FDFF38A3BF58D2897BD73409AB44 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52918BC463B00E019D949E5F2DD11DFB /* Pods-OPGFeedbackSDKLite_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OPGFeedbackSDKLite_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OPGFeedbackSDKLite_Example/Pods-OPGFeedbackSDKLite_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6BAED742D6784B7D71AC68FE21FE8259 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OPGFeedbackSDKLite";
-				INFOPLIST_FILE = "Target Support Files/OPGFeedbackSDKLite/ResourceBundle-OPGFeedbackSDKLite-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
-				PRODUCT_NAME = OPGFeedbackSDKLite;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		A0C20EB204B4A406DC9C57841EE4BA64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBE11646852F8571D24E4EB77CB1E5AD /* Pods-OPGFeedbackSDKLite_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OPGFeedbackSDKLite_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-OPGFeedbackSDKLite_Tests/Pods-OPGFeedbackSDKLite_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -780,102 +906,53 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		227C6D5C2326105C216846566D77839A /* Build configuration list for PBXNativeTarget "Pods-OPGFeedbackSDKLite_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5E95FDFF38A3BF58D2897BD73409AB44 /* Debug */,
-				2700E92F8E6FA37BB833D943FA09EAB0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
-				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
+				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A83A079AB43FECF1D37DE64017793E47 /* Build configuration list for PBXNativeTarget "OPGFeedbackSDKLite-OPGFeedbackSDKLite" */ = {
+		75C8CC6FBC5C82E86844E30CAD71CAA8 /* Build configuration list for PBXNativeTarget "OPGFeedbackSDKLite-OPGFeedbackSDKLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BAED742D6784B7D71AC68FE21FE8259 /* Debug */,
-				371DB4E18BEBE15A8FC79061E43C4AF8 /* Release */,
+				A188D3512F36B30342E62D4FFD2B661A /* Debug */,
+				12A50EB466F07CFC811F069658415F9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD857BFA93E711ECD4BD17B24348E784 /* Build configuration list for PBXNativeTarget "Pods-OPGFeedbackSDKLite_Tests" */ = {
+		B3F2EFC0EB6DA3DD79F01A35EFCDB30A /* Build configuration list for PBXNativeTarget "Pods-OPGFeedbackSDKLite_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3306CC880D0906B830D5B57A93DBB85D /* Debug */,
-				A0C20EB204B4A406DC9C57841EE4BA64 /* Release */,
+				400207E69B35073F2E023BCAD792422E /* Debug */,
+				D7AD6E5B41A64D48E33EA7F3903DDF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B760248736C70C190A2212008934E37B /* Build configuration list for PBXNativeTarget "Pods-OPGFeedbackSDKLite_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDDE4E5A9A7215D5C65E296EE67321F /* Debug */,
+				CC232A70E2846BA84AED4D113D2594E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F53968BFDABBA1651D7932CC2AA9938C /* Build configuration list for PBXAggregateTarget "OPGFeedbackSDKLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3347A2A3575B702000488617E1420795 /* Debug */,
+				772254A083EAB77BE4C5668C1F0D5176 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
